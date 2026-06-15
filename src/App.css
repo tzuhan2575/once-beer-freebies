@@ -796,3 +796,20 @@ textarea {
   gap: 10px;
   margin-top: 18px;
 }
+
+.sync-warning {
+  max-width: 620px;
+  margin: 12px auto 0;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .sync-warning {
+    max-width: 320px;
+    margin-top: 10px;
+    font-size: 11px;
+  }
+}

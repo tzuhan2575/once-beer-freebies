@@ -534,7 +534,11 @@ function App() {
                 </button>
               )}
             </div>
-          </header>
+
+<p className="sync-warning">
+  提醒：若使用 Google 收藏同步，建議同一時間只在一個裝置操作收藏，避免多裝置同時修改造成收藏狀態不同步。
+</p>
+</header>
 
           <section className="filters">
             <input
@@ -750,9 +754,10 @@ function App() {
             <h2>要登入後同步收藏嗎？</h2>
 
             <p>
-              不登入也可以收藏，但收藏只會保存在目前這台裝置。
-              使用 Google 登入後，可以在不同裝置間同步收藏內容。
-            </p>
+  不登入也可以收藏，但收藏只會保存在目前這台裝置。
+  使用 Google 登入後，可以在不同裝置間同步收藏內容。
+  若使用 Google 收藏同步，建議同一時間只在一個裝置操作收藏，避免多裝置同時修改造成收藏狀態不同步。
+</p>
 
             <div className="login-prompt-actions">
               <button
