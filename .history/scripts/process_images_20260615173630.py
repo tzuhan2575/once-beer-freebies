@@ -1,1 +1,0 @@
-pip install pillow pillow-heif
