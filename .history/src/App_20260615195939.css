@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
   background: #f5f6f8;
 }
 
 body {
   margin: 0;
+  background: #f5f6f8;
   color: #1f2937;
   font-family:
     "Noto Sans TC",
@@ -22,8 +22,7 @@ body {
 }
 
 button,
-input,
-textarea {
+input {
   font: inherit;
 }
 
@@ -58,10 +57,6 @@ textarea {
 }
 
 .hero-actions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   margin-top: 24px;
 }
 
@@ -138,7 +133,6 @@ textarea {
 }
 
 .freebie-card {
-  position: relative;
   overflow: hidden;
   border-radius: 16px;
   background: #ffffff;
@@ -186,84 +180,6 @@ textarea {
   color: #374151;
 }
 
-/* 收藏功能 */
-
-.secondary-action-button {
-  display: inline-block;
-  padding: 9px 16px;
-  border-radius: 999px;
-  border: 1px solid #93c5fd;
-  background: #ffffff;
-  color: #2563eb;
-  font-size: 15px;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.secondary-action-button.active {
-  background: #dbeafe;
-}
-
-.card-favorite-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  z-index: 2;
-  width: 32px;
-  height: 32px;
-  border: none;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.88);
-  color: #64748b;
-  font-size: 18px;
-  font-weight: 800;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
-}
-
-.card-favorite-button.active {
-  color: #ef4444;
-}
-
-.favorite-button {
-  border: 1px solid #fecaca;
-  border-radius: 999px;
-  padding: 9px 16px;
-  background: #ffffff;
-  color: #ef4444;
-  font-size: 15px;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.favorite-button.active {
-  background: #fee2e2;
-}
-
-.favorite-tools {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: -6px 0 18px;
-}
-
-.copy-button {
-  border: none;
-  border-radius: 999px;
-  padding: 9px 16px;
-  background: #2563eb;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.copy-message {
-  color: #64748b;
-  font-size: 14px;
-}
-
 /* 詳細頁 */
 
 .detail-page {
@@ -279,12 +195,33 @@ textarea {
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
-.detail-header-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
+.floating-back-button {
+  position: fixed;
+  left: 24px;
+  top: 24px;
+  z-index: 50;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 18px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.28);
+}
+
+.floating-back-button:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 700px) {
+  .floating-back-button {
+    left: 14px;
+    top: 14px;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
 }
 
 .detail-title {
@@ -369,28 +306,6 @@ textarea {
   font-size: 13px;
 }
 
-/* 回到列表懸浮按鈕 */
-
-.floating-back-button {
-  position: fixed;
-  left: 24px;
-  top: 24px;
-  z-index: 50;
-  border: none;
-  border-radius: 999px;
-  padding: 12px 18px;
-  background: #2563eb;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 800;
-  cursor: pointer;
-  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.28);
-}
-
-.floating-back-button:hover {
-  background: #1d4ed8;
-}
-
 /* 按鈕 */
 
 .primary-link {
@@ -421,38 +336,6 @@ textarea {
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 22px;
-}
-
-/* 分頁 */
-
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 14px;
-  margin-top: 28px;
-}
-
-.pagination-button {
-  border: 1px solid #93c5fd;
-  border-radius: 999px;
-  padding: 9px 16px;
-  background: #ffffff;
-  color: #2563eb;
-  font-size: 14px;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.pagination-button:disabled {
-  opacity: 0.4;
-  cursor: default;
-}
-
-.pagination-info {
-  color: #64748b;
-  font-size: 14px;
-  font-weight: 700;
 }
 
 /* 免責聲明 */
@@ -493,6 +376,164 @@ textarea {
   color: #ffffff;
   font-size: 40px;
   cursor: pointer;
+}
+
+/* 手機版 */
+
+@media (max-width: 700px) {
+  .app {
+    padding: 18px 12px 40px;
+  }
+
+  .hero {
+    padding: 26px 8px 28px;
+  }
+
+  .hero p {
+    white-space: normal;
+    font-size: 13px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .detail-panel {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .detail-title {
+    font-size: 24px;
+  }
+
+  .image-carousel {
+    grid-template-columns: 34px minmax(0, 1fr) 34px;
+    gap: 6px;
+  }
+
+  .carousel-button {
+    width: 34px;
+    height: 34px;
+    font-size: 24px;
+  }
+
+  .carousel-image {
+    max-height: 420px;
+  }
+}
+
+/* 收藏功能 */
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.secondary-action-button {
+  display: inline-block;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid #93c5fd;
+  background: #ffffff;
+  color: #2563eb;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.secondary-action-button.active {
+  background: #dbeafe;
+}
+
+.freebie-card {
+  position: relative;
+}
+
+.card-favorite-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+}
+
+.card-favorite-button.active {
+  color: #ef4444;
+}
+
+.favorite-button {
+  border: 1px solid #fecaca;
+  border-radius: 999px;
+  padding: 9px 16px;
+  background: #ffffff;
+  color: #ef4444;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.favorite-button.active {
+  background: #fee2e2;
+}
+
+.detail-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.favorite-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: -6px 0 18px;
+}
+
+.copy-button {
+  border: none;
+  border-radius: 999px;
+  padding: 9px 16px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.copy-message {
+  color: #64748b;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .hero-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .detail-header-row {
+    align-items: flex-start;
+  }
+
+  .favorite-tools {
+    flex-direction: column;
+  }
 }
 
 /* 匯出收藏清單視窗 */
@@ -570,92 +611,4 @@ textarea {
   color: #2563eb;
   font-size: 14px;
   font-weight: 700;
-}
-
-/* 手機版 */
-
-@media (max-width: 700px) {
-  .app {
-    padding: 18px 12px 40px;
-  }
-
-  .hero {
-    padding: 26px 8px 28px;
-  }
-
-  .hero h1 {
-    font-size: clamp(26px, 8vw, 34px);
-    letter-spacing: 0.02em;
-  }
-
-  .hero p {
-    white-space: normal;
-    font-size: 13px;
-  }
-
-  .hero-actions {
-    flex-direction: row;
-    gap: 8px;
-    flex-wrap: nowrap;
-  }
-
-  .hero-actions .primary-link,
-  .hero-actions .secondary-action-button {
-    min-width: 0;
-    padding: 9px 14px;
-    font-size: 14px;
-    white-space: nowrap;
-  }
-
-  .card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
-  }
-
-  .detail-panel {
-    padding: 20px;
-    border-radius: 20px;
-  }
-
-  .detail-title {
-    font-size: 24px;
-  }
-
-  .detail-header-row {
-    align-items: flex-start;
-  }
-
-  .image-carousel {
-    grid-template-columns: 34px minmax(0, 1fr) 34px;
-    gap: 6px;
-  }
-
-  .carousel-button {
-    width: 34px;
-    height: 34px;
-    font-size: 24px;
-  }
-
-  .carousel-image {
-    max-height: 420px;
-  }
-
-  .floating-back-button {
-    left: 14px;
-    top: 14px;
-    padding: 10px 14px;
-    font-size: 14px;
-  }
-
-  .favorite-tools {
-    flex-direction: column;
-  }
-
-  .pagination {
-    gap: 10px;
-  }
-
-  .pagination-button {
-    padding: 8px 14px;
-  }
 }
