@@ -1,6 +1,6 @@
 export const siteLinks = {
-  submissionForm: "https://forms.gle/REPLACE_WITH_SUBMISSION_FORM",
-  removalForm: "https://forms.gle/REPLACE_WITH_REMOVAL_FORM",
+  submissionForm: "https://forms.gle/2ySqVt2PG89i2ccz8",
+  removalForm: "https://forms.gle/pk7VdbBoQsVYdX9J9",
 };
 
 export const freebies = [
