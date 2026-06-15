@@ -7,6 +7,11 @@ import "./App.css";
 
 const categories = ["全部", "紙本類", "配件類", "食物類", "其他類"];
 
+const LOCAL_FAVORITES_KEY = "onceBeerFavorites";
+const LOCAL_FAVORITES_OWNER_KEY = "onceBeerFavoritesOwnerUid";
+const LOGIN_PROMPT_DISMISSED_KEY = "onceBeerLoginPromptDismissed";
+const GUEST_OWNER = "guest";
+
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("全部");
   const [keyword, setKeyword] = useState("");
@@ -28,7 +33,7 @@ function App() {
   const cardSectionRef = useRef(null);
 
   const getLocalFavoriteIds = () => {
-    const savedFavorites = localStorage.getItem("onceBeerFavorites");
+    const savedFavorites = localStorage.getItem(LOCAL_FAVORITES_KEY);
 
     if (!savedFavorites) return [];
 
@@ -39,8 +44,9 @@ function App() {
     }
   };
 
-  const saveLocalFavoriteIds = (ids) => {
-    localStorage.setItem("onceBeerFavorites", JSON.stringify(ids));
+  const saveLocalFavoriteIds = (ids, ownerUid = GUEST_OWNER) => {
+    localStorage.setItem(LOCAL_FAVORITES_KEY, JSON.stringify(ids));
+    localStorage.setItem(LOCAL_FAVORITES_OWNER_KEY, ownerUid);
   };
 
   const saveUserFavoritesToFirestore = async (userId, ids) => {
@@ -76,17 +82,22 @@ function App() {
       if (currentUser) {
         try {
           const localFavorites = getLocalFavoriteIds();
+          const localOwnerUid = localStorage.getItem(LOCAL_FAVORITES_OWNER_KEY);
+
           const cloudFavorites = await loadUserFavoritesFromFirestore(
             currentUser.uid
           );
 
-          const mergedFavorites = Array.from(
-            new Set([...localFavorites, ...cloudFavorites])
-          );
+          const shouldMergeLocalFavorites =
+            localFavorites.length > 0 && localOwnerUid !== currentUser.uid;
 
-          setFavoriteIds(mergedFavorites);
-          saveLocalFavoriteIds(mergedFavorites);
-          await saveUserFavoritesToFirestore(currentUser.uid, mergedFavorites);
+          const nextFavorites = shouldMergeLocalFavorites
+            ? Array.from(new Set([...localFavorites, ...cloudFavorites]))
+            : cloudFavorites;
+
+          setFavoriteIds(nextFavorites);
+          saveLocalFavoriteIds(nextFavorites, currentUser.uid);
+          await saveUserFavoritesToFirestore(currentUser.uid, nextFavorites);
         } catch (error) {
           console.error("Load favorites failed:", error);
           alert("讀取雲端收藏失敗，會先使用本機收藏。");
@@ -102,8 +113,8 @@ function App() {
   }, []);
 
   useEffect(() => {
-    saveLocalFavoriteIds(favoriteIds);
-  }, [favoriteIds]);
+    saveLocalFavoriteIds(favoriteIds, user ? user.uid : GUEST_OWNER);
+  }, [favoriteIds, user]);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -166,8 +177,7 @@ function App() {
       const matchKeyword =
         normalizedKeyword === "" || searchableText.includes(normalizedKeyword);
 
-      const matchFavorite =
-        !showFavoritesOnly || favoriteIds.includes(item.id);
+      const matchFavorite = !showFavoritesOnly || favoriteIds.includes(item.id);
 
       return matchCategory && matchKeyword && matchFavorite;
     });
@@ -208,7 +218,7 @@ function App() {
       : [...favoriteIds, itemId];
 
     setFavoriteIds(nextFavoriteIds);
-    saveLocalFavoriteIds(nextFavoriteIds);
+    saveLocalFavoriteIds(nextFavoriteIds, user ? user.uid : GUEST_OWNER);
 
     if (user) {
       try {
@@ -222,7 +232,7 @@ function App() {
 
   const toggleFavorite = async (itemId) => {
     const hasSeenLoginPrompt =
-      localStorage.getItem("onceBeerLoginPromptDismissed") === "true";
+      localStorage.getItem(LOGIN_PROMPT_DISMISSED_KEY) === "true";
 
     if (!user && !hasSeenLoginPrompt) {
       setPendingFavoriteId(itemId);
@@ -234,7 +244,7 @@ function App() {
   };
 
   const continueWithoutLogin = async () => {
-    localStorage.setItem("onceBeerLoginPromptDismissed", "true");
+    localStorage.setItem(LOGIN_PROMPT_DISMISSED_KEY, "true");
     setShowLoginPrompt(false);
 
     if (pendingFavoriteId) {
@@ -244,13 +254,13 @@ function App() {
   };
 
   const loginFromPrompt = async () => {
-    localStorage.setItem("onceBeerLoginPromptDismissed", "true");
+    localStorage.setItem(LOGIN_PROMPT_DISMISSED_KEY, "true");
     setShowLoginPrompt(false);
 
     if (pendingFavoriteId && !favoriteIds.includes(pendingFavoriteId)) {
       const nextFavoriteIds = [...favoriteIds, pendingFavoriteId];
       setFavoriteIds(nextFavoriteIds);
-      saveLocalFavoriteIds(nextFavoriteIds);
+      saveLocalFavoriteIds(nextFavoriteIds, GUEST_OWNER);
     }
 
     setPendingFavoriteId(null);
