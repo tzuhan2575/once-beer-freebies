@@ -103,17 +103,6 @@ function App() {
     return sortedFreebies.filter((item) => favoriteIds.includes(item.id));
   }, [favoriteIds, sortedFreebies]);
 
-
-  useEffect(() => {
-  if (selectedItem) {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "auto",
-    });
-  }
-}, [selectedItem]);
-
   const openDetail = (item) => {
   setSelectedItem(item);
   setCurrentImageIndex(0);

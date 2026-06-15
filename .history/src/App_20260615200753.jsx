@@ -113,7 +113,6 @@ function App() {
     });
   }
 }, [selectedItem]);
-
   const openDetail = (item) => {
   setSelectedItem(item);
   setCurrentImageIndex(0);
