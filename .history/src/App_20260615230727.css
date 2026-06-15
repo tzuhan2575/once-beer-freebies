@@ -756,43 +756,10 @@ textarea {
     font-size: 14px;
   }
 }
-
-/* 第一次收藏登入提醒 */
-
-.login-prompt-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 1100;
-  display: grid;
-  place-items: center;
-  padding: 20px;
-  background: rgba(15, 23, 42, 0.45);
-}
-
-.login-prompt-modal {
-  width: min(420px, 100%);
-  padding: 24px;
-  border-radius: 22px;
-  background: #ffffff;
-  box-shadow: 0 18px 44px rgba(15, 23, 42, 0.22);
-}
-
-.login-prompt-modal h2 {
-  margin: 0 0 12px;
-  color: #1f2937;
-  font-size: 22px;
-}
-
-.login-prompt-modal p {
-  margin: 0;
+.login-note {
+  margin: 12px auto 0;
   color: #64748b;
-  font-size: 15px;
-  line-height: 1.8;
-}
-
-.login-prompt-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 18px;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: normal;
 }

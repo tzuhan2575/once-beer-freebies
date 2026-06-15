@@ -756,6 +756,13 @@ textarea {
     font-size: 14px;
   }
 }
+.login-note {
+  margin: 12px auto 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: normal;
+}
 
 /* 第一次收藏登入提醒 */
 

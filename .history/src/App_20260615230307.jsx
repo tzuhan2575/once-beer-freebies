@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
-import { doc, getDoc, setDoc } from "firebase/firestore";
-import { auth, db, googleProvider } from "./firebase";
+import { auth, googleProvider } from "./firebase";
 import { freebies, siteLinks } from "./data/freebies";
 import "./App.css";
 
@@ -21,88 +20,33 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [isMobile, setIsMobile] = useState(false);
   const [user, setUser] = useState(null);
-  const [authLoading, setAuthLoading] = useState(true);
-  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
-  const [pendingFavoriteId, setPendingFavoriteId] = useState(null);
+const [authLoading, setAuthLoading] = useState(true);
 
   const cardSectionRef = useRef(null);
 
-  const getLocalFavoriteIds = () => {
+  useEffect(() => {
     const savedFavorites = localStorage.getItem("onceBeerFavorites");
 
-    if (!savedFavorites) return [];
-
-    try {
-      return JSON.parse(savedFavorites);
-    } catch {
-      return [];
-    }
-  };
-
-  const saveLocalFavoriteIds = (ids) => {
-    localStorage.setItem("onceBeerFavorites", JSON.stringify(ids));
-  };
-
-  const saveUserFavoritesToFirestore = async (userId, ids) => {
-    await setDoc(
-      doc(db, "userFavorites", userId),
-      {
-        favoriteIds: ids,
-        updatedAt: new Date().toISOString(),
-      },
-      { merge: true }
-    );
-  };
-
-  const loadUserFavoritesFromFirestore = async (userId) => {
-    const snapshot = await getDoc(doc(db, "userFavorites", userId));
-
-    if (!snapshot.exists()) {
-      return [];
-    }
-
-    return snapshot.data().favoriteIds || [];
-  };
-
-  useEffect(() => {
-    const localFavorites = getLocalFavoriteIds();
-    setFavoriteIds(localFavorites);
-  }, []);
-
-  useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
-      setUser(currentUser);
-
-      if (currentUser) {
-        try {
-          const localFavorites = getLocalFavoriteIds();
-          const cloudFavorites = await loadUserFavoritesFromFirestore(
-            currentUser.uid
-          );
-
-          const mergedFavorites = Array.from(
-            new Set([...localFavorites, ...cloudFavorites])
-          );
-
-          setFavoriteIds(mergedFavorites);
-          saveLocalFavoriteIds(mergedFavorites);
-          await saveUserFavoritesToFirestore(currentUser.uid, mergedFavorites);
-        } catch (error) {
-          console.error("Load favorites failed:", error);
-          alert("讀取雲端收藏失敗，會先使用本機收藏。");
-        }
-      } else {
-        setFavoriteIds(getLocalFavoriteIds());
+    if (savedFavorites) {
+      try {
+        setFavoriteIds(JSON.parse(savedFavorites));
+      } catch {
+        setFavoriteIds([]);
       }
-
-      setAuthLoading(false);
-    });
-
-    return () => unsubscribe();
+    }
   }, []);
 
   useEffect(() => {
-    saveLocalFavoriteIds(favoriteIds);
+  const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    setUser(currentUser);
+    setAuthLoading(false);
+  });
+
+  return () => unsubscribe();
+}, []);
+
+  useEffect(() => {
+    localStorage.setItem("onceBeerFavorites", JSON.stringify(favoriteIds));
   }, [favoriteIds]);
 
   useEffect(() => {
@@ -202,65 +146,14 @@ function App() {
     setLightboxImage(null);
   };
 
-  const toggleFavoriteDirectly = async (itemId) => {
-    const nextFavoriteIds = favoriteIds.includes(itemId)
-      ? favoriteIds.filter((id) => id !== itemId)
-      : [...favoriteIds, itemId];
-
-    setFavoriteIds(nextFavoriteIds);
-    saveLocalFavoriteIds(nextFavoriteIds);
-
-    if (user) {
-      try {
-        await saveUserFavoritesToFirestore(user.uid, nextFavoriteIds);
-      } catch (error) {
-        console.error("Save favorites failed:", error);
-        alert("雲端收藏同步失敗，但本機收藏已保留。");
+  const toggleFavorite = (itemId) => {
+    setFavoriteIds((prev) => {
+      if (prev.includes(itemId)) {
+        return prev.filter((id) => id !== itemId);
       }
-    }
-  };
 
-  const toggleFavorite = async (itemId) => {
-    const hasSeenLoginPrompt =
-      localStorage.getItem("onceBeerLoginPromptDismissed") === "true";
-
-    if (!user && !hasSeenLoginPrompt) {
-      setPendingFavoriteId(itemId);
-      setShowLoginPrompt(true);
-      return;
-    }
-
-    await toggleFavoriteDirectly(itemId);
-  };
-
-  const continueWithoutLogin = async () => {
-    localStorage.setItem("onceBeerLoginPromptDismissed", "true");
-    setShowLoginPrompt(false);
-
-    if (pendingFavoriteId) {
-      await toggleFavoriteDirectly(pendingFavoriteId);
-      setPendingFavoriteId(null);
-    }
-  };
-
-  const loginFromPrompt = async () => {
-    localStorage.setItem("onceBeerLoginPromptDismissed", "true");
-    setShowLoginPrompt(false);
-
-    if (pendingFavoriteId && !favoriteIds.includes(pendingFavoriteId)) {
-      const nextFavoriteIds = [...favoriteIds, pendingFavoriteId];
-      setFavoriteIds(nextFavoriteIds);
-      saveLocalFavoriteIds(nextFavoriteIds);
-    }
-
-    setPendingFavoriteId(null);
-
-    try {
-      await signInWithPopup(auth, googleProvider);
-    } catch (error) {
-      console.error("Google login failed:", error);
-      alert("登入失敗，請再試一次。");
-    }
+      return [...prev, itemId];
+    });
   };
 
   const openExportModal = () => {
@@ -341,24 +234,6 @@ function App() {
     pages.push(totalPages);
 
     return pages;
-  };
-
-  const handleGoogleLogin = async () => {
-    try {
-      await signInWithPopup(auth, googleProvider);
-    } catch (error) {
-      console.error("Google login failed:", error);
-      alert("登入失敗，請再試一次。");
-    }
-  };
-
-  const handleLogout = async () => {
-    try {
-      await signOut(auth);
-    } catch (error) {
-      console.error("Logout failed:", error);
-      alert("登出失敗，請再試一次。");
-    }
   };
 
   return (
@@ -501,28 +376,6 @@ function App() {
               >
                 {showFavoritesOnly ? "查看全部" : `我的收藏 ${favoriteIds.length}`}
               </button>
-
-              {authLoading ? (
-                <button type="button" className="login-button" disabled>
-                  載入中
-                </button>
-              ) : user ? (
-                <button
-                  type="button"
-                  className="login-button logged-in"
-                  onClick={handleLogout}
-                >
-                  {user.displayName ? `${user.displayName}｜登出` : "已登入｜登出"}
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  className="login-button"
-                  onClick={handleGoogleLogin}
-                >
-                  Google 登入
-                </button>
-              )}
             </div>
           </header>
 
@@ -722,43 +575,6 @@ function App() {
                 }}
               >
                 關閉
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {showLoginPrompt && (
-        <div
-          className="login-prompt-backdrop"
-          onClick={() => setShowLoginPrompt(false)}
-        >
-          <div
-            className="login-prompt-modal"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <h2>要登入後同步收藏嗎？</h2>
-
-            <p>
-              不登入也可以收藏，但收藏只會保存在目前這台裝置。
-              使用 Google 登入後，可以在不同裝置間同步收藏內容。
-            </p>
-
-            <div className="login-prompt-actions">
-              <button
-                type="button"
-                className="primary-button"
-                onClick={loginFromPrompt}
-              >
-                使用 Google 登入
-              </button>
-
-              <button
-                type="button"
-                className="secondary-button"
-                onClick={continueWithoutLogin}
-              >
-                先不用，繼續收藏
               </button>
             </div>
           </div>

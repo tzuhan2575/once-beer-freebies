@@ -22,8 +22,6 @@ function App() {
   const [isMobile, setIsMobile] = useState(false);
   const [user, setUser] = useState(null);
   const [authLoading, setAuthLoading] = useState(true);
-  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
-  const [pendingFavoriteId, setPendingFavoriteId] = useState(null);
 
   const cardSectionRef = useRef(null);
 
@@ -202,7 +200,7 @@ function App() {
     setLightboxImage(null);
   };
 
-  const toggleFavoriteDirectly = async (itemId) => {
+  const toggleFavorite = async (itemId) => {
     const nextFavoriteIds = favoriteIds.includes(itemId)
       ? favoriteIds.filter((id) => id !== itemId)
       : [...favoriteIds, itemId];
@@ -217,49 +215,6 @@ function App() {
         console.error("Save favorites failed:", error);
         alert("雲端收藏同步失敗，但本機收藏已保留。");
       }
-    }
-  };
-
-  const toggleFavorite = async (itemId) => {
-    const hasSeenLoginPrompt =
-      localStorage.getItem("onceBeerLoginPromptDismissed") === "true";
-
-    if (!user && !hasSeenLoginPrompt) {
-      setPendingFavoriteId(itemId);
-      setShowLoginPrompt(true);
-      return;
-    }
-
-    await toggleFavoriteDirectly(itemId);
-  };
-
-  const continueWithoutLogin = async () => {
-    localStorage.setItem("onceBeerLoginPromptDismissed", "true");
-    setShowLoginPrompt(false);
-
-    if (pendingFavoriteId) {
-      await toggleFavoriteDirectly(pendingFavoriteId);
-      setPendingFavoriteId(null);
-    }
-  };
-
-  const loginFromPrompt = async () => {
-    localStorage.setItem("onceBeerLoginPromptDismissed", "true");
-    setShowLoginPrompt(false);
-
-    if (pendingFavoriteId && !favoriteIds.includes(pendingFavoriteId)) {
-      const nextFavoriteIds = [...favoriteIds, pendingFavoriteId];
-      setFavoriteIds(nextFavoriteIds);
-      saveLocalFavoriteIds(nextFavoriteIds);
-    }
-
-    setPendingFavoriteId(null);
-
-    try {
-      await signInWithPopup(auth, googleProvider);
-    } catch (error) {
-      console.error("Google login failed:", error);
-      alert("登入失敗，請再試一次。");
     }
   };
 
@@ -524,6 +479,10 @@ function App() {
                 </button>
               )}
             </div>
+
+            <p className="login-note">
+              不登入也可以收藏；登入 Google 後，可在不同裝置同步收藏。
+            </p>
           </header>
 
           <section className="filters">
@@ -722,43 +681,6 @@ function App() {
                 }}
               >
                 關閉
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {showLoginPrompt && (
-        <div
-          className="login-prompt-backdrop"
-          onClick={() => setShowLoginPrompt(false)}
-        >
-          <div
-            className="login-prompt-modal"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <h2>要登入後同步收藏嗎？</h2>
-
-            <p>
-              不登入也可以收藏，但收藏只會保存在目前這台裝置。
-              使用 Google 登入後，可以在不同裝置間同步收藏內容。
-            </p>
-
-            <div className="login-prompt-actions">
-              <button
-                type="button"
-                className="primary-button"
-                onClick={loginFromPrompt}
-              >
-                使用 Google 登入
-              </button>
-
-              <button
-                type="button"
-                className="secondary-button"
-                onClick={continueWithoutLogin}
-              >
-                先不用，繼續收藏
               </button>
             </div>
           </div>
