@@ -1749,4 +1749,126 @@ ONCE（官方周邊）& 出示本篇貼文`,
 
 #TZUYU #쯔위 #子瑜 #TWICE #高雄啤酒節`,
 },
+{
+  id: "kriszeng.r-01",
+  priorityGroup: "normal",
+  fanAccount: "kriszeng.r",
+  fanAccountUrl: "https://www.threads.com/@kriszeng.r",
+  postUrl: "https://www.threads.com/@kriszeng.r/post/DZPu0FLGYJW?xmt=AQG0EIU5YmH1yDKdNptnjZ0YcSkLKMY_Hdz9ieeuerq18Q",
+  category: "其他類",
+  itemName: "收納袋、凸面鏡",
+  displayName: "鏡子、袋子",
+  mainImage: "/images/kriszeng.r/1.webp",
+  images: ["/images/kriszeng.r/1.webp"],
+  hasVideo: false,
+  originalText: `💙啤酒節免費應援物💙
+
+第一次做應援做了收納袋跟凸面鏡
+
+🔺收納袋有藍色、黑色
+🔺凸面鏡有灰色、綠色、粉色
+📍款式隨機發放 每人限領一個
+
+▪️鏡子30份袋子50份 發完為止
+有留一些數量可以交換！
+
+📍領取方式
+1️⃣出示粉絲證明
+2️⃣出示領取貼文畫面
+3️⃣有追蹤 thinkaboutzu or twicetagram
+
+有以上條件皆可領取免費應援物
+
+當天會在發一篇文告知穿著或配件
+目前沒有固定要在哪裡發放
+所以有遇到我可以來找我領取應援🫶🏻
+
+線上團原本開30份直接被敲碗多發了20份
+剩下有多的一樣會在現場發放💙
+
+希望想要的ONCE們都可以領到🫶🏻🫶🏻`,
+},
+{
+  id: "siidnxjx-01",
+  priorityGroup: "normal",
+  fanAccount: "siidnxjx",
+  fanAccountUrl: "https://www.threads.com/@siidnxjx",
+  postUrl: "https://www.threads.com/@siidnxjx/post/DY4oDgzj2Pt?xmt=AQG0WSOsuV-QgXwynsoeayMTNSRrwXIKwpZsr0qvxf7g1A",
+  category: "紙本類",
+  itemName: "紙袋",
+  displayName: "紙袋",
+  mainImage: "/images/siidnxjx/1.webp",
+  images: ["/images/siidnxjx/1.webp"],
+  hasVideo: false,
+  originalText: `大家晚安～♡
+
+要來兌現搶到啤酒節超搖票的承諾了～
+第一次靠自己的手搶到演唱會超搖票T^T
+很開心這次終於有機會製作應援
+並且分享給萬斯們！
+
+因為是第一次自己設計
+還有很多不足的地方
+希望大家不要嫌棄 >_<
+
+這次的製作理念
+是希望能設計一個「實用又好看」的周邊
+所以最後決定將應援品做成紙袋！
+
+圖片的部分
+則是選了自己最喜歡的周子紅裙solo 造型🫶
+真的非常非常非常喜歡這套造型
+覺得又漂亮又有氣質🥹
+
+歡迎大家來跟我交換應援🫶🏻
+會保留一部分提供直接領取
+
+當天會在這個帳號更新我的穿搭和位置
+方便大家找到我💗
+
+直接領取門檻：
+1️⃣ 追蹤我的帳號並按讚此篇貼文
+2️⃣ 能看出你是萬斯💞
+
+總共有 50 份！
+
+大家 7/3 啤酒節都來找我領應援吧💙
+（圖片為紙袋示意圖）`,
+},
+{
+  id: "haonine_2-01",
+  priorityGroup: "normal",
+  fanAccount: "haonine_2",
+  fanAccountUrl: "https://www.threads.com/@haonine_2",
+  postUrl: "https://www.threads.com/@haonine_2/post/DZPR_AcFIy4?xmt=AQG0IQoesQ3PUfQbbwl1F5p26TnDTDZgGyGHxhRypdXdaA",
+  category: "其他類",
+  itemName: "決策幣",
+  displayName: "決策幣",
+  mainImage: "/images/haonine_2/1.webp",
+  images: [
+    "/images/haonine_2/1.webp",
+    "/images/haonine_2/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `*･゜ﾟ･*:.｡..｡.:*･'2026/07/03'･*:.｡. .｡.:*･゜ﾟ･*
+高雄啤酒音樂節BEER ROCK FESTIVAL應援物貼文
+
+大家好 這裡是綠帽！
+（你也可以叫我平井桃的狗/方燦手上的水晶球）
+
+應援物終於拿到實體了！
+所以馬上來po文公告
+
+這次做的是延續上次的周子不理魷魚樣式的決策幣！
+正面是做子不理魷魚表情的圖樣
+背面是打了這次啤酒節的日期跟名稱給大家做紀念
+
+-
+
+📍領取規則方式跟地點會在靠近的時候公開
+這次會用友人 @galactic._.0 一同行動發放應援物
+
+📍應援物主要以交換為優先
+有興趣交換的歡迎留言登記！`,
+},
 ];
