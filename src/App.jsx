@@ -5,7 +5,90 @@ import { auth, db, googleProvider } from "./firebase";
 import { freebies, siteLinks } from "./data/freebies";
 import "./App.css";
 
-const categories = ["全部", "紙本類", "配件類", "食物類", "其他類"];
+const categories = ["全部", "紙本類", "配件類", "實用小物", "綜合類"];
+const paperKeywords = [
+  "小卡",
+  "卡片",
+  "貼紙",
+  "透卡",
+  "手幅",
+  "紙袋",
+  "提袋",
+  "歌單",
+  "明信片",
+  "感謝卡",
+  "香薰卡",
+  "百貼布",
+  "便利貼",
+  "紀念章",
+];
+
+const accessoryKeywords = [
+  "徽章",
+  "胸針",
+  "戒指",
+  "手環",
+  "髮夾",
+  "吊飾",
+  "鑰匙圈",
+  "瀏海貼",
+  "御守",
+  "決策幣",
+  "開瓶器",
+];
+
+const practicalKeywords = [
+  "扇",
+  "透扇",
+  "折扇",
+  "圓扇",
+  "原子筆",
+  "濕紙巾",
+  "衛生紙",
+  "收納袋",
+  "袋子",
+  "鏡子",
+  "凸面鏡",
+  "杯墊",
+  "防蚊貼",
+  "卡套",
+  "零錢包",
+  "行李飄帶",
+];
+
+const getItemCategory = (item) => {
+  if (["紙本類", "配件類", "實用小物", "綜合類"].includes(item.category)) {
+    return item.category;
+  }
+
+  const text = `${item.itemName || ""} ${item.displayName || ""}`;
+
+  const matchedGroups = [];
+
+  if (paperKeywords.some((keyword) => text.includes(keyword))) {
+    matchedGroups.push("紙本類");
+  }
+
+  if (accessoryKeywords.some((keyword) => text.includes(keyword))) {
+    matchedGroups.push("配件類");
+  }
+
+  if (practicalKeywords.some((keyword) => text.includes(keyword))) {
+    matchedGroups.push("實用小物");
+  }
+
+  const uniqueGroups = [...new Set(matchedGroups)];
+
+  if (uniqueGroups.length >= 2) {
+    return "綜合類";
+  }
+
+  if (uniqueGroups.length === 1) {
+    return uniqueGroups[0];
+  }
+
+  return "實用小物";
+};
 
 const LOCAL_FAVORITES_KEY = "onceBeerFavorites";
 const LOCAL_FAVORITES_OWNER_KEY = "onceBeerFavoritesOwnerUid";
@@ -161,16 +244,18 @@ function App() {
     const normalizedKeyword = keyword.trim().toLowerCase();
 
     return sortedFreebies.filter((item) => {
-      const matchCategory =
-        selectedCategory === "全部" || item.category === selectedCategory;
+      const computedCategory = getItemCategory(item);
+
+const matchCategory =
+  selectedCategory === "全部" || computedCategory === selectedCategory;
 
       const searchableText = [
-        item.fanAccount,
-        item.category,
-        item.itemName,
-        item.displayName,
-        item.originalText,
-      ]
+  item.fanAccount,
+  computedCategory,
+  item.itemName,
+  item.displayName,
+  item.originalText,
+]
         .join(" ")
         .toLowerCase();
 
@@ -406,7 +491,7 @@ function App() {
             <div className="detail-info">
               <p>
                 <strong>類別：</strong>
-                {selectedItem.category}
+{getItemCategory(selectedItem)}
               </p>
               <p>
                 <strong>品項：</strong>
@@ -674,7 +759,7 @@ function App() {
                   </a>
 
                   <div className="card-meta">
-                    <span>{item.category}</span>
+                    <span>{getItemCategory(item)}</span>
                     <span>｜</span>
                     <span>{item.displayName || item.itemName}</span>
                   </div>

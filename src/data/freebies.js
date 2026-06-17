@@ -1758,8 +1758,8 @@ ONCE（官方周邊）& 出示本篇貼文`,
   category: "其他類",
   itemName: "收納袋、凸面鏡",
   displayName: "鏡子、袋子",
-  mainImage: "/images/kriszeng.r/1.webp",
-  images: ["/images/kriszeng.r/1.webp"],
+  mainImage: "/images/kriszeng/1.webp",
+  images: ["/images/kriszeng/1.webp"],
   hasVideo: false,
   originalText: `💙啤酒節免費應援物💙
 
