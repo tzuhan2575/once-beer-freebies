@@ -1585,4 +1585,168 @@ ONCE大家好～
 
 感謝：@shinhuei_tsai 設計`,
 },
+{
+  id: "tzuyu_ouen-01",
+  priorityGroup: "normal",
+  fanAccount: "tzuyu_ouen",
+  fanAccountUrl: "https://www.threads.com/@tzuyu_ouen",
+  postUrl: "https://www.threads.com/@tzuyu_ouen/post/DZMzLYvCaZo?xmt=AQG0ukY16BmqtL0RlxXkJXxwDyna9fXlUiOWlm3aGf79cA",
+  category: "其他類",
+  itemName: "手幅、歌單、濕紙巾、折疊扇",
+  displayName: "手幅、歌單、濕紙巾、折疊扇",
+  mainImage: "/images/tzuyu_ouen/1.webp",
+  images: ["/images/tzuyu_ouen/1.webp"],
+  hasVideo: false,
+  originalText: `🍺2026 高雄啤酒音樂節🍺《專屬子瑜》免費應援物
+
+🔆 日期：07/03(五)
+
+🔆 時間與地點：
+07/03會在本帳號 @tzuyu_ouen 發文公告時間地點，預計下午抵達
+
+⚠️每人限領一份，不能代領
+
+🔆 應援物品項：
+(1)子瑜專屬手幅(500張)
+(2)應援雙面歌單(500張)
+(3)瑜樂涼感濕紙巾(300包)
+(4)子瑜摺疊圓扇(100個)
+
+🔆 應援物組合
+🉐️【大家都有組】：[子瑜專屬手幅]一張+[應援雙面歌單]一張
+㊙️【子瑜專屬組】：[瑜樂涼感濕紙巾]一包
+🍺【子瑜藍組】：[子瑜折疊圓扇]一個
+🍻【隨緣組】：台北場沒發完的[周子瑜大長腿尺]或[美人瑜透扇]或[子瑜3D變卡]
+
+🔆應援物領取條件
+🉐️【大家都有組】：憑7/3當天門票(手環)即可領取
+㊙️【子瑜專屬組】：追蹤子瑜IG
+🍺【子瑜藍組】：追蹤子瑜IG+子瑜官方周邊+手燈開啟子瑜藍
+🍻【隨緣組】：隨緣可得
+
+🔆應援物交換
+🐟開放10組交換(交換組合：手幅+歌單+折疊圓扇)
+🐟請於本篇留言以及應援物，請不要私訊
+🐟有興趣交換的應援物，會主動私訊，大感謝💙
+
+💙請多多轉發、多多分享💙
+⚠️禁止轉賣&丟棄應援物⚠️`,
+},
+{
+  id: "ssianvc_-01",
+  priorityGroup: "normal",
+  fanAccount: "ssianvc_",
+  fanAccountUrl: "https://www.threads.com/@ssianvc_",
+  postUrl: "https://www.threads.com/@ssianvc_/post/DZkMzG2k1nq?xmt=AQG0xdwxgDQkzsb9CWmhqBA3iMAX725_UwkRc_Uv9DOYcw",
+  category: "紙本類",
+  itemName: "貼紙、透卡",
+  displayName: "貼紙、透卡",
+  mainImage: "/images/ssianvc_/1.webp",
+  images: ["/images/ssianvc_/1.webp"],
+  hasVideo: false,
+  originalText: `子瑜高雄啤酒音樂節應援物
+💙💙💙💙💙💙💙💙💙
+
+無聊突然覺得需要做一些東西
+希望大家可以來收刮它們
+
+雖然這不是什麼奪厲害的東西
+但畢竟是子瑜在台灣的第一場solo舞台
+就做一些小東西紀念一下
+
+貼紙因為做越多越划算我就直接下手
+秉持客家人心態（應該是吧
+
+數量：
+貼紙900張
+透卡50張
+
+📆日期：7/3 下午3.後吧
+🏝️地點：應該是GAP外面下面的有水的地方吧
+🍭領取方式：就隨便發
+🫴領取條件：是ONCE就可以`,
+},
+{
+  id: "luuu___uu-01",
+  priorityGroup: "normal",
+  fanAccount: "luuu___uu",
+  fanAccountUrl: "https://www.threads.com/@luuu___uu",
+  postUrl: "https://www.threads.com/@luuu___uu/post/DZRfyojgVck?xmt=AQG0oV0_YNb7ya6oHXWLqav02LjS-FFWrWbgnI1pKWM5VQ",
+  category: "其他類",
+  itemName: "壓克力搖搖樂吊飾",
+  displayName: "壓克力吊飾",
+  mainImage: "/images/luuu___uu/1.webp",
+  images: ["/images/luuu___uu/1.webp"],
+  hasVideo: false,
+  originalText: `💙TZUYU｜高雄啤酒音樂節應援💙
+
+.｡.:*☆ ⋆ ⭒˚♡｡*⋆ .⊹˖｡*✧°*｡♡˚⭒ ⋆☆*:.｡.
+
+繼高雄場之後 又來發應援啦🤩
+本來還在猶豫要不要做新的東西
+但後來被朋友說服了 加上我自己也很喜歡
+希望TWICE可以多來台灣活動
+這樣說不定哪天就可以集齊九種
+所以做了之前高雄場的壓克力搖搖樂吊飾✨
+
+📍數量：25個
+📅日期：7/3 具體時間待定
+🍭領取方式：交換 or 隨機發
+交換的話目前先不保留 怕當天不確定因素太多
+
+📝領取條件：
+ONCE（官方周邊）& 出示本篇貼文`,
+},
+{
+  id: "molimoliwara-01",
+  priorityGroup: "normal",
+  fanAccount: "molimoliwara",
+  fanAccountUrl: "https://www.threads.com/@molimoliwara",
+  postUrl: "https://www.threads.com/@molimoliwara/post/DZWb8DBkqPf?xmt=AQG0BMe9iTXQLvQWLeX_6Crzf08gqJr2L0s6f5JcbMxX7A",
+  category: "其他類",
+  itemName: "迷你透扇",
+  displayName: "迷你透扇",
+  mainImage: "/images/molimoliwara/1.webp",
+  images: ["/images/molimoliwara/1.webp"],
+  hasVideo: false,
+  originalText: `💙 TZUYU SUPPORT EVENT 💙
+子瑜高雄啤酒節應援發放
+
+為了應援周子瑜的高雄啤酒節活動✨
+這次準備了 100份迷你透扇
+想和大家一起替子瑜應援💙
+
+━━━━━━━━━
+
+📍 發放地點
+高雄啤酒節場外
+
+📅 領取時間
+當天將公告於 IG 限時動態
+
+🎁 發放內容
+迷你透扇 ×100
+數量有限・發完為止
+
+━━━━━━━━━
+
+💌 領取方式
+出示本篇貼文＋追蹤子瑜IG thinkaboutzu 即可領取✨
+
+📌 每人限領一份
+📌 數量有限，發完為止
+
+━━━━━━━━━
+
+🎀 當日販售
+將攜帶 子瑜生日應援吊飾 $25／1個
+
+有喜歡的朋友歡迎購買支持 >< 💙
+
+✨ 另外也準備了其他驚喜，將於當日公告！
+
+啤酒節見🥹💙
+
+#TZUYU #쯔위 #子瑜 #TWICE #高雄啤酒節`,
+},
 ];
