@@ -1083,18 +1083,54 @@ ps.實際上因為字是白色的
   priorityGroup: "normal",
   fanAccount: "a27689532",
   fanAccountUrl: "https://www.threads.com/@a27689532",
-  postUrl: "https://www.threads.com/@a27689532/post/DZOygpUiZNt?xmt=AQG0o5LJriGaOnm2oXjsGzwIxdUpKQe0MuAUuZrtG7T4XQ",
+  postUrl: "https://www.threads.com/@a27689532/post/DZrhitRCeJw?xmt=AQG0D7wha-n5AvFjSaOQZLVBJLR9hy-P0MzdqE_0GeUIuQ",
   category: "其他類",
-  itemName: "行李飄帶 TZUYU.ver",
+  itemName: "超厚布質行李飄帶 TZUYU.ver",
   displayName: "行李飄帶",
   mainImage: "/images/a27689532/1.webp",
-  images: ["/images/a27689532/1.webp"],
+  images: [
+    "/images/a27689532/1.webp",
+    "/images/a27689532/2.webp",
+    "/images/a27689532/3.webp",
+    "/images/a27689532/4.webp",
+  ],
   hasVideo: false,
-  originalText: `正式公開 子瑜啤酒節限定版 行李飄帶 TZUYU.ver
+  originalText: `TZUYU 周子瑜 高雄啤酒節
+❤️免費應援物發放💙
 
-相關領取條件後續公布。
+本次為
+跟上次材質一樣的超厚布質行李飄帶 TZUYU .ver
+上次有領過的都應該都感覺得出來材料不錯吧
+歡迎大家找我領取💖
 
-目前確定領取需有子瑜泡泡31天或是子瑜lovely 3隻`,
+應援物介紹及領取規則及交換規則
+
+超厚布質行李飄帶。可變換成吊飾等多重用途。
+這次準備了100條。請要交換的應援物創作者或是once可以開始留言了
+本次40條將會分給應援物創作者。
+40條分給僅領取的。
+另外20條左轉找豪豪 @haohaochaing
+
+（應援物創作者直接交換即可不用下列的規則。如果超過40條交換的名額只能使用領取的方法了）
+
+領取規則：
+此項為必要要求條件
+‼️‼️‼️‼️
+
+在此篇文章留言。只接受六月之前（含六月）留言的
+（換言之七月之後才留言的不接受領取）
+
+然後以下條件滿足其一即可
+（當天出示即可不用私訊我照片）
+
+A.子瑜🫧泡泡訂閱滿50天以上。
+B.三隻tzuvely 實體或是照片（需證明為你本人照片）
+
+舉例：出示 6/14在這篇文章留要領取的紀錄。當天也有帶三隻子瑜娃
+
+發放時間與地點📍
+ꕤ啤酒節當天（確切時間接近會公布）
+ꕤ夢時代（當天會公布位置）`,
 },
 {
   id: "miya_chang_2004-01",
@@ -1369,5 +1405,184 @@ When We Were Kids ✨
 子屬瑜我們的小幸運🍀
 
 7/3應援筆發放 Coming soon…`,
+},
+{
+  id: "card_mysterio-01",
+  priorityGroup: "normal",
+  fanAccount: "card_mysterio",
+  fanAccountUrl: "https://www.threads.com/@card_mysterio",
+  postUrl: "https://www.threads.com/@card_mysterio/post/DZcslG0gQDl?xmt=AQG0GB9qR4V4C24YBdaU5GhVTuYwKWoPbCc-cafXVfOoQw",
+  category: "其他類",
+  itemName: "TZUVELY 壓克力鑰匙圈",
+  displayName: "壓克力鑰匙圈",
+  mainImage: "/images/card_mysterio/1.webp",
+  images: [
+    "/images/card_mysterio/1.webp",
+    "/images/card_mysterio/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `7/3 高雄啤酒節🍺
+TZUVELY 壓克力鑰匙圈應援發放
+
+這次準備了小小應援物
+將於 7/3 高雄啤酒節現場發放
+期待和大家一起迎接子瑜的舞台 💙
+
+日期：7/3
+發放時間＆地點：當天公布於 IG 限時動態
+發放條件：需能證明為 ONCE及出示這則貼文
+應援物：TZUVELY 壓克力鑰匙圈（共兩款）
+
+注意事項：
+・每人限領一個款式（不可代領，數量有限送完為止
+・款式可現場挑款
+・出示「探險家識別徽章」可直接領取一套（兩款各一）
+・擁有「超級探險家資格」可直接‘’預約保留‘’領取一套（兩款各一）`,
+},
+{
+  id: "wyc87135-01",
+  priorityGroup: "normal",
+  fanAccount: "wyc87135",
+  fanAccountUrl: "https://www.threads.com/@wyc87135",
+  postUrl: "https://www.threads.com/@wyc87135/post/DZnBOc-gTnn?xmt=AQG0lvIrL0Q5ACSHfRdgwZTzTa6ic06et_tsaj_TSi62-Q",
+  category: "其他類",
+  itemName: "子瑜摺扇",
+  displayName: "折扇",
+  mainImage: "/images/wyc87135/1.webp",
+  images: [
+    "/images/wyc87135/1.webp",
+    "/images/wyc87135/2.webp",
+    "/images/wyc87135/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍺高雄啤酒節 2026.7/3子瑜應援物🍺
+
+💙應援小物：子瑜摺扇💙
+「製作數量50個，小物有限」
+
+💙領取方式：
+1.持有TWICE周邊、手燈
+2.出示本貼文
+
+🐬交換請在留言區附上您的應援物🐬
+（到時候7/3當天交換）
+
+發放日：07/03 服裝地點當天公佈
+
+❗️每個人限領一個/禁轉賣/禁代領❗️
+
+因為是工廠製作，已經包裝完畢，沒有開封檢查過，如果有任何問題不做任何退換🥺
+
+因為本人較i加上第一次製作應援物支持子瑜，如果有任何覺得陌生，那一定是我很緊張的關係，不是我不開心哦～～
+
+🦌期待當天看到大家拿著我的扇子，為子瑜應援😍`,
+},
+{
+  id: "mt__ch_.2.7-01",
+  priorityGroup: "normal",
+  fanAccount: "mt__ch_.2.7",
+  fanAccountUrl: "https://www.threads.com/@mt__ch_.2.7",
+  postUrl: "https://www.threads.com/@mt__ch_.2.7/post/DZcc-eEgepJ?xmt=AQG04jYKM5fjiSvDrqAW1XWM6Thfb9G3YNGr9DaTlLyIFA",
+  category: "其他類",
+  itemName: "御守",
+  displayName: "御守",
+  mainImage: "/images/mt__ch_.2.7/1.webp",
+  images: [
+    "/images/mt__ch_.2.7/1.webp",
+    "/images/mt__ch_.2.7/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `～～大家晚安 御守的實體圖終於可以公開了 ～～
+
+‼️首先感謝 @miguin_sr_my 提供的創作想法和 @ciizixos 朋友提供的貼圖
+因為是第一次設計 所以做的比較保守
+
+⚠️數量較少 所以先拿先贏喔～⚠️
+
+💡設計想法：
+背景為子瑜的應援色
+透光材質在太陽下會更漂亮
+並選擇了類似塔羅牌風格與子瑜喜歡的蝴蝶做搭配
+太陽與月亮代表TWICE陪伴我們無數個日夜
+加上一點禁衛軍的私心
+讓紗瑜的lovely保佑Once們平平安安
+中間的部分則選了圖二作爲參考
+
+日期：7/3
+時間：待公佈
+數量：75個｜會留20個交換
+地點：會公布在這個帳號
+大概會在定點或跟著發應援的其他人一起走
+
+領取門檻：
+出示這個貼文並看得出來是Once🍭
+（沒出示的話麻煩重新排隊喔～）
+
+希望大家會喜歡這次的應援物也歡迎跟我交換應援💙💙💙`,
+},
+{
+  id: "mon_mon_0811-01",
+  priorityGroup: "normal",
+  fanAccount: "mon_mon_0811",
+  fanAccountUrl: "https://www.threads.com/@mon_mon_0811",
+  postUrl: "https://www.threads.com/@mon_mon_0811/post/DZpfznvkkId?xmt=AQG06Ur56oDpm0TmruPV99TSEJuApoXz_BVgw-qoJwzVtQ",
+  category: "其他類",
+  itemName: "Lovely Tzu袋、個人透扇",
+  displayName: "紙袋、透扇",
+  mainImage: "/images/mon_mon_0811/1.webp",
+  images: ["/images/mon_mon_0811/1.webp"],
+  hasVideo: false,
+  originalText: `🌟💙高雄啤酒節TZUYU應援💙🌟
+
+ONCE大家好～
+再過兩個禮拜就是高雄啤酒節了！
+
+為了支持子瑜​的單人活動
+這次準備了兩種應援
+
+✧【Lovely Tzu袋】100個
+考慮到當天可能會很多人發應援～
+特別準備了Tzu袋讓大家用漂亮的袋子裝漂亮的應援
+
+✧【個人透扇】80支
+炎炎夏日一定需要一把漂亮的扇子對吧！
+
+💙領取條件💙
+-證明你是ONCE（出示手燈或周邊）
+-出示此貼文
+-追蹤 ig:@thinkaboutzu
+
+📣發放時間、地點：7/3當天公佈
+
+～希望大家玩的開心～`,
+},
+{
+  id: "pan_paddy-01",
+  priorityGroup: "normal",
+  fanAccount: "pan_paddy",
+  fanAccountUrl: "https://www.threads.com/@pan_paddy",
+  postUrl: "https://www.threads.com/@pan_paddy/post/DZHbRiUksUt?xmt=AQG0gv3jqbGefA9An0211xGzI-Cg7lU-9PVj8UPq819IrA",
+  category: "其他類",
+  itemName: "衛生紙包",
+  displayName: "衛生紙",
+  mainImage: "/images/pan_paddy/1.webp",
+  images: ["/images/pan_paddy/1.webp"],
+  hasVideo: false,
+  originalText: `子瑜｜高雄啤酒音樂節🍺
+💓心動專員上線💓
+
+🍺 免費應援｜衛生紙包 共200包
+🍺 領取時間｜7/3當日暫定14-16點之間
+🍺 領取方式｜出示貼文與Twice相關周邊
+
+🥲希望看到子瑜時有衛生紙能接住大家的眼淚
+🔥還有高雄7月真的很熱，記得擦擦汗，不要中暑
+
+💙 詳細規則＆完整時間地點將於流程表出來後公告在本帳號
+💙 也歡迎交換、分享、打卡、留言
+💙一起好好玩吧！
+💙預計大約13:30左右抵達現場，一般區的想領的可以討論哪裡先拿！
+
+感謝：@shinhuei_tsai 設計`,
 },
 ];
