@@ -6,6 +6,12 @@ import { freebies, siteLinks } from "./data/freebies";
 import "./App.css";
 
 const categories = ["全部", "紙本類", "配件類", "實用小物", "綜合類"];
+
+const LOCAL_FAVORITES_KEY = "onceBeerFavorites";
+const LOCAL_FAVORITES_OWNER_KEY = "onceBeerFavoritesOwnerUid";
+const LOGIN_PROMPT_DISMISSED_KEY = "onceBeerLoginPromptDismissed";
+const GUEST_OWNER = "guest";
+
 const paperKeywords = [
   "小卡",
   "卡片",
@@ -21,6 +27,7 @@ const paperKeywords = [
   "百貼布",
   "便利貼",
   "紀念章",
+  "票根",
 ];
 
 const accessoryKeywords = [
@@ -35,6 +42,7 @@ const accessoryKeywords = [
   "御守",
   "決策幣",
   "開瓶器",
+  "香片",
 ];
 
 const practicalKeywords = [
@@ -45,15 +53,23 @@ const practicalKeywords = [
   "原子筆",
   "濕紙巾",
   "衛生紙",
+  "手帕紙",
   "收納袋",
   "袋子",
+  "環保袋",
   "鏡子",
   "凸面鏡",
+  "圓鏡",
   "杯墊",
+  "杯",
   "防蚊貼",
   "卡套",
   "零錢包",
   "行李飄帶",
+  "梳子",
+  "湯匙",
+  "叉子",
+  "毛巾",
 ];
 
 const getItemCategory = (item) => {
@@ -90,10 +106,40 @@ const getItemCategory = (item) => {
   return "實用小物";
 };
 
-const LOCAL_FAVORITES_KEY = "onceBeerFavorites";
-const LOCAL_FAVORITES_OWNER_KEY = "onceBeerFavoritesOwnerUid";
-const LOGIN_PROMPT_DISMISSED_KEY = "onceBeerLoginPromptDismissed";
-const GUEST_OWNER = "guest";
+const getThanksTemplates = (item) => {
+  if (!item) return [];
+
+  const account = `@${item.fanAccount}`;
+  const itemName = item.displayName || item.itemName;
+
+  return [
+    {
+      type: "short",
+      label: "簡短",
+      text: `謝謝 ${account} 的應援物，會好好珍惜💙`,
+    },
+    {
+      type: "normal",
+      label: "一般",
+      text: `今天領到 ${account} 的「${itemName}」了，真的很喜歡，謝謝你用心準備這份應援💙`,
+    },
+    {
+      type: "cute",
+      label: "可愛",
+      text: `成功領到 ${account} 的「${itemName}」！實體好可愛，拿到的時候超開心，謝謝你讓啤酒節多了一份回憶💙`,
+    },
+    {
+      type: "cherish",
+      label: "珍惜",
+      text: `謝謝 ${account} 準備的「${itemName}」，看得出來很用心，我會好好珍惜，不會轉售或丟棄💙`,
+    },
+    {
+      type: "photo",
+      label: "返圖",
+      text: `領到 ${account} 的「${itemName}」了！附上返圖，謝謝你準備這麼棒的應援，辛苦了💙`,
+    },
+  ];
+};
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("全部");
@@ -112,6 +158,9 @@ function App() {
   const [authLoading, setAuthLoading] = useState(true);
   const [showLoginPrompt, setShowLoginPrompt] = useState(false);
   const [pendingFavoriteId, setPendingFavoriteId] = useState(null);
+  const [showThanksModal, setShowThanksModal] = useState(false);
+  const [selectedThanksType, setSelectedThanksType] = useState("short");
+  const [thanksCopyMessage, setThanksCopyMessage] = useState("");
 
   const cardSectionRef = useRef(null);
 
@@ -246,21 +295,26 @@ function App() {
     return sortedFreebies.filter((item) => {
       const computedCategory = getItemCategory(item);
 
-const matchCategory =
-  selectedCategory === "全部" || computedCategory === selectedCategory;
+      const matchCategory =
+        selectedCategory === "全部" || computedCategory === selectedCategory;
 
       const searchableText = [
-  item.fanAccount,
-  computedCategory,
-  item.itemName,
-  item.displayName,
-  item.originalText,
-]
+        item.fanAccount,
+        computedCategory,
+        item.itemName,
+        item.displayName,
+        item.originalText,
+      ]
         .join(" ")
         .toLowerCase();
 
+      const keywordParts = normalizedKeyword
+        .split(/\s+/)
+        .filter((part) => part.length > 0);
+
       const matchKeyword =
-        normalizedKeyword === "" || searchableText.includes(normalizedKeyword);
+        keywordParts.length === 0 ||
+        keywordParts.every((part) => searchableText.includes(part));
 
       const matchFavorite = !showFavoritesOnly || favoriteIds.includes(item.id);
 
@@ -285,16 +339,46 @@ const matchCategory =
     return sortedFreebies.filter((item) => favoriteIds.includes(item.id));
   }, [favoriteIds, sortedFreebies]);
 
+  const thanksTemplates = useMemo(() => {
+    return getThanksTemplates(selectedItem);
+  }, [selectedItem]);
+
+  const selectedThanksText = useMemo(() => {
+    return (
+      thanksTemplates.find((template) => template.type === selectedThanksType)
+        ?.text || ""
+    );
+  }, [thanksTemplates, selectedThanksType]);
+
   const openDetail = (item) => {
     setSelectedItem(item);
     setCurrentImageIndex(0);
     setCopyMessage("");
+    setThanksCopyMessage("");
+    setShowThanksModal(false);
   };
 
   const closeDetail = () => {
     setSelectedItem(null);
     setCurrentImageIndex(0);
     setLightboxImage(null);
+    setShowThanksModal(false);
+    setThanksCopyMessage("");
+  };
+
+  const openThanksModal = () => {
+    setSelectedThanksType("short");
+    setThanksCopyMessage("");
+    setShowThanksModal(true);
+  };
+
+  const copyThanksText = async () => {
+    try {
+      await navigator.clipboard.writeText(selectedThanksText);
+      setThanksCopyMessage("已複製感謝文字！");
+    } catch {
+      setThanksCopyMessage("複製失敗，請手動選取文字複製。");
+    }
   };
 
   const toggleFavoriteDirectly = async (itemId) => {
@@ -491,7 +575,7 @@ const matchCategory =
             <div className="detail-info">
               <p>
                 <strong>類別：</strong>
-{getItemCategory(selectedItem)}
+                {getItemCategory(selectedItem)}
               </p>
               <p>
                 <strong>品項：</strong>
@@ -547,6 +631,14 @@ const matchCategory =
             )}
 
             <div className="detail-actions">
+              <button
+                type="button"
+                className="thanks-open-button"
+                onClick={openThanksModal}
+              >
+                感謝創作者
+              </button>
+
               <a
                 href={selectedItem.postUrl}
                 target="_blank"
@@ -620,10 +712,10 @@ const matchCategory =
               )}
             </div>
 
-<p className="sync-warning">
-  提醒：若使用 Google 收藏同步，建議同一時間只在一個裝置操作收藏，避免多裝置同時修改造成收藏狀態不同步。
-</p>
-</header>
+            <p className="sync-warning">
+              提醒：若使用 Google 收藏同步，建議同一時間只在一個裝置操作收藏，避免多裝置同時修改造成收藏狀態不同步。
+            </p>
+          </header>
 
           <section className="filters">
             <input
@@ -827,6 +919,84 @@ const matchCategory =
         </div>
       )}
 
+      {showThanksModal && selectedItem && (
+        <div
+          className="thanks-modal-backdrop"
+          onClick={() => setShowThanksModal(false)}
+        >
+          <div
+            className="thanks-modal"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <h2>感謝創作者</h2>
+
+            <p className="thanks-note">
+              選一段想留言或發限動的文字，複製後可以回到原文留言、返圖或標記創作者。小小一句回應，對創作者來說會很有力量💙
+            </p>
+
+            <div className="thanks-type-buttons">
+              {thanksTemplates.map((template) => (
+                <button
+                  key={template.type}
+                  type="button"
+                  className={
+                    selectedThanksType === template.type
+                      ? "thanks-type-button active"
+                      : "thanks-type-button"
+                  }
+                  onClick={() => {
+                    setSelectedThanksType(template.type);
+                    setThanksCopyMessage("");
+                  }}
+                >
+                  {template.label}
+                </button>
+              ))}
+            </div>
+
+            <textarea
+              className="thanks-textarea"
+              value={selectedThanksText}
+              readOnly
+            />
+
+            {thanksCopyMessage && (
+              <p className="thanks-copy-message">{thanksCopyMessage}</p>
+            )}
+
+            <div className="thanks-actions">
+              <button
+                type="button"
+                className="primary-button"
+                onClick={copyThanksText}
+              >
+                複製感謝文字
+              </button>
+
+              <a
+                href={selectedItem.postUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="primary-link"
+              >
+                前往原文留言
+              </a>
+
+              <button
+                type="button"
+                className="secondary-button"
+                onClick={() => {
+                  setShowThanksModal(false);
+                  setThanksCopyMessage("");
+                }}
+              >
+                關閉
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {showLoginPrompt && (
         <div
           className="login-prompt-backdrop"
@@ -839,10 +1009,10 @@ const matchCategory =
             <h2>要登入後同步收藏嗎？</h2>
 
             <p>
-  不登入也可以收藏，但收藏只會保存在目前這台裝置。
-  使用 Google 登入後，可以在不同裝置間同步收藏內容。
-  若使用 Google 收藏同步，建議同一時間只在一個裝置操作收藏，避免多裝置同時修改造成收藏狀態不同步。
-</p>
+              不登入也可以收藏，但收藏只會保存在目前這台裝置。
+              使用 Google 登入後，可以在不同裝置間同步收藏內容。
+              若使用 Google 收藏同步，建議同一時間只在一個裝置操作收藏，避免多裝置同時修改造成收藏狀態不同步。
+            </p>
 
             <div className="login-prompt-actions">
               <button
