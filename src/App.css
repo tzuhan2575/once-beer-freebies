@@ -934,3 +934,152 @@ textarea {
     font-size: 14px;
   }
 }
+
+/* 使用說明導覽 */
+
+.guide-button {
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  padding: 10px 18px;
+  background: #ffffff;
+  color: #2563eb;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.guide-button:hover {
+  background: #eff6ff;
+}
+
+.guide-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(15, 23, 42, 0.45);
+}
+
+.guide-modal {
+  width: min(720px, 100%);
+  max-height: 86vh;
+  overflow: auto;
+  padding: 24px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 18px 44px rgba(15, 23, 42, 0.22);
+}
+
+.guide-header {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.guide-header h2 {
+  margin: 0;
+  color: #1f2937;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.guide-close-button {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.guide-close-button:hover {
+  background: #e2e8f0;
+}
+
+.guide-intro {
+  margin: 12px 0 18px;
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.guide-list {
+  display: grid;
+  gap: 12px;
+}
+
+.guide-item {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  background: #f8fafc;
+}
+
+.guide-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: #eff6ff;
+  font-size: 22px;
+}
+
+.guide-item h3 {
+  margin: 0 0 4px;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.guide-item p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.guide-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+@media (max-width: 700px) {
+  .guide-modal {
+    padding: 20px;
+  }
+
+  .guide-header h2 {
+    font-size: 20px;
+  }
+
+  .guide-item {
+    grid-template-columns: 36px 1fr;
+    padding: 12px;
+  }
+
+  .guide-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+
+  .guide-item h3 {
+    font-size: 15px;
+  }
+
+  .guide-item p {
+    font-size: 13px;
+  }
+}
