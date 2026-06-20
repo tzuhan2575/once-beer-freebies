@@ -134,10 +134,10 @@ const getThanksTemplates = (item) => {
       text: `謝謝 ${account} 準備的「${itemName}」，看得出來很用心，我會好好珍惜，不會轉售或丟棄💙`,
     },
     {
-      type: "photo",
-      label: "返圖",
-      text: `領到 ${account} 的「${itemName}」了！附上返圖，謝謝你準備這麼棒的應援，辛苦了💙`,
-    },
+  type: "photo",
+  label: "拍照分享",
+  text: `領到 ${account} 的「${itemName}」了！拍照分享一下，謝謝你準備這麼棒的應援，辛苦了💙`,
+},
   ];
 };
 
@@ -931,7 +931,7 @@ function App() {
             <h2>感謝創作者</h2>
 
             <p className="thanks-note">
-              選一段想留言或發限動的文字，複製後可以回到原文留言、返圖或標記創作者。小小一句回應，對創作者來說會很有力量💙
+              選一段想留言或發限動的文字，複製後可以回到原文留言、拍照分享或標記創作者。小小一句回應，對創作者來說會很有力量💙
             </p>
 
             <div className="thanks-type-buttons">
