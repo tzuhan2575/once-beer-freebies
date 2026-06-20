@@ -201,27 +201,47 @@ export const freebies = [
   priorityGroup: "normal",
   fanAccount: "satzu_.once",
   fanAccountUrl: "https://www.threads.com/@satzu_.once",
-  postUrl: "https://www.threads.com/@satzu_.once/post/DYrX1DYD_a4?xmt=AQG0Ewu5F9guXRCXzQj_k-dH__UcZtHeqCQWMSzUWUgDZQ",
-  category: "紙本類",
-  itemName: "便利貼",
-  displayName: "便利貼",
+  postUrl: "https://www.threads.com/@satzu_.once/post/DZv8TxyD4AO?xmt=AQG0hA5KC3AtvAJQPLPaEXh-u8Wzd3VYm3V485Dj6k2lTw",
+  category: "綜合類",
+  itemName: "便利貼、餐具吊飾、紙袋",
+  displayName: "便利貼、餐具吊飾、紙袋",
   mainImage: "/images/satzu_.once/1.webp",
-  images: ["/images/satzu_.once/1.webp"],
+  images: [
+    "/images/satzu_.once/1.webp",
+    "/images/satzu_.once/2.webp",
+    "/images/satzu_.once/3.webp",
+    "/images/satzu_.once/4.webp",
+  ],
   hasVideo: false,
-  originalText: `7/3子瑜高雄啤酒音樂節part1應援🍻💙
-是便利貼𐔌ᵔ⁔ ܸ. ̫ .⁔ ͡ 𐦯♡
+  originalText: `7/3周子瑜高雄啤酒音樂節應援🍺💙
 
-數量大概55份左右
-時間和地點不確定
+part1子子便利貼（65份）
+part2子不理餐具吊飾（100份）
+part3瑜寶紙袋（60份）
 
 領取條件：
 1️⃣追蹤 @satzu_.once
-2️⃣答對我出的題目*1（不會太難ㅋㅋ
+2️⃣答對我出的題目*1（難度不難也不簡單
+但相信瑜粉們都能答出來
+因為希望能發給真正喜歡子瑜的人
+跟風的人太多了、、
 
-歡迎來和我交換應援～交換應援不用答題
-（想玩也可以⌯>ᴗ<⌯
+歡迎來和我交換應援～
+交換應援不用答題
+（當然想玩也可以⌯>ᴗ<⌯
 
-當天會和 @once._.11301109 一起發應援🐠💙`,
+領取是三擇一
+（我本人隨機給
+交換則是三擇二or三樣都有（視情況
+
+這些都是我自己花錢製作的
+拜託不要因為不是自己想要的就丟棄
+我真的會很難過😫💔
+
+當天會和 @once._.11301109 一起發應援 🐟🐟
+大家來找我們玩吧ฅ^.ˬ.^ฅ
+
+會去的友列想領的和我說～我要留給你們`,
 },
 {
   id: "yin.v0730-01",
@@ -2144,5 +2164,227 @@ ONCE（官方周邊）& 出示本篇貼文`,
 現場見囉！乾杯！🍻✨
 
 （示意圖供參考，以實物為準）`,
+},
+{
+  id: "haohaochaing-01",
+  priorityGroup: "normal",
+  fanAccount: "haohaochaing",
+  fanAccountUrl: "https://www.threads.com/@haohaochaing",
+  postUrl: "https://www.threads.com/@haohaochaing/post/DZxVrthHRzh?xmt=AQG0sRjMot6QWI69rQkDsf6a1UsQbpEm6PvyC5eeHZwT-g",
+  category: "綜合類",
+  itemName: "行李飄帶、糖霜餅乾",
+  displayName: "行李飄帶、糖霜餅乾",
+  mainImage: "/images/haohaochaing/1.webp",
+  images: [
+    "/images/haohaochaing/1.webp",
+    "/images/haohaochaing/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `TZUYU 周子瑜 高雄啤酒節
+❤️免費應援物發放💙
+
+@a27689532 的應援物介紹
+容我直接照抄
+
+本次為
+跟上次材質一樣的超厚布質行李飄帶 TZUYU .ver
+上次有領過的都應該都感覺得出來材料不錯吧
+歡迎大家找我領取💖
+
+應援物介紹及領取規則及交換規則
+
+超厚布質行李飄帶。可變換成吊飾等多重用途。
+這次準備了100條。
+
+只有20條是找我交換或領取
+然後還有大概20片的應援糖霜餅乾
+（這次只做子瑜的版本，其他成員沒有提供，直接用舊圖請原諒我懶）
+
+再次重申❗️
+應援餅乾是請店家做的，有食安疑慮的不要來🙃
+
+其他80條都是潘潘負責請直接找他😂
+
+領取規則：
+此項為必要要求條件
+‼️‼️‼️‼️
+
+在此篇文章留言，只接受六月之前（含六月）留言的
+（換言之七月之後才留言的不接受領取）
+
+然後以下條件滿足其一即可
+（當天出示即可不用私訊我照片）
+
+A.子瑜🫧泡泡訂閱滿50天以上。
+B.三隻tzuvely 實體或是照片（需證明為你本人照
+
+舉例：出示在這篇文章留要領取的紀錄或當天也有帶三隻子瑜娃
+
+發放時間與地點📍
+ꕤ啤酒節當天（確切時間接近會公布）
+ꕤ夢時代（當天會公布位置）`,
+},
+{
+  id: "toast_yy__-01",
+  priorityGroup: "normal",
+  fanAccount: "toast_yy__",
+  fanAccountUrl: "https://www.threads.com/@toast_yy__",
+  postUrl: "https://www.threads.com/@toast_yy__/post/DZzVLfoEynC?xmt=AQG02N9CFINMAiSE5aJO5h0qupt0qCKxRVlVTd2BskBczw",
+  category: "配件類",
+  itemName: "不織布吊飾",
+  displayName: "不織布吊飾",
+  mainImage: "/images/toast_yy__/1.webp",
+  images: ["/images/toast_yy__/1.webp"],
+  hasVideo: false,
+  originalText: `7/3啤酒節當天會發放這個不織布吊飾
+
+歡迎大家來找我玩！🥳
+可以來找我交換！！
+我也想領好多好多應援
+
+-
+
+領取條件：
+一定要有粉絲證明
+看得出來是ONCE就可以🔥
+
+-
+
+如果可以的話也可以追蹤我哈哈哈
+有認證的話我會很開心`,
+},
+{
+  id: "l.yzuu-01",
+  priorityGroup: "normal",
+  fanAccount: "l.yzuu",
+  fanAccountUrl: "https://www.threads.com/@l.yzuu",
+  postUrl: "https://www.threads.com/@l.yzuu/post/DZxhPDqj__x?xmt=AQG0wY1tztsohQRBoQ9IWj88gmRGOxtDBiq2lCYNzOhpog",
+  category: "實用小物",
+  itemName: "透明摺疊梳子",
+  displayName: "透明摺疊梳子",
+  mainImage: "/images/l.yzuu/1.webp",
+  images: ["/images/l.yzuu/1.webp"],
+  hasVideo: false,
+  originalText: `大家好૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა
+
+子瑜要來高雄啤酒節啦🍺💙
+第一次嘗試製作應援，所以想準備一點小小心意，送給當天一起來支持子瑜的 ONCE 們🥰
+
+這次也很感謝朋朋 @samooo.77 幫忙一起完成🫶🏻
+
+歡迎到現場來找我領取～
+
+=======
+
+ㄴ🍻發放內容：透明摺疊梳子 × 20
+
+ㄴ🍻發放時間：7/3 下午（確切時間會再公布）
+
+ㄴ🍻發放地點：夢時代附近（會跟著朋朋到處走）
+
+ㄴ🍻領取條件：
+🫧 子瑜泡泡💙
+子瑜相關周邊
+🎫 啤酒節門票
+
+以上三項皆需達到，領取時也請出示本篇Threads 貼文
+
+（因為這次準備數量比較少，所以條件也會多一點，謝謝大家體諒🥺)
+
+之後有想到其他資訊會再補充！
+期待 7/3 見大家 💙`,
+},
+{
+  id: "li_si_pur-01",
+  priorityGroup: "normal",
+  fanAccount: "li_si_pur",
+  fanAccountUrl: "https://www.threads.com/@li_si_pur",
+  postUrl: "https://www.threads.com/@li_si_pur/post/DZxQ7lvEjaB?xmt=AQG0Jxj8SLNZcNVhKHY2un2N4e0b0jSLSD3cdpCrjLvPaw",
+  category: "綜合類",
+  itemName: "小卡、毛巾",
+  displayName: "小卡、毛巾",
+  mainImage: "/images/li_si_pur/1.webp",
+  images: [
+    "/images/li_si_pur/1.webp",
+    "/images/li_si_pur/2.webp",
+    "/images/li_si_pur/3.webp",
+    "/images/li_si_pur/4.webp",
+  ],
+  hasVideo: false,
+  originalText: `啤酒節子瑜應援物發放公告 💙
+
+這是我第一次舉辦應援，所以毛巾數量沒有很多
+（毛巾會先以交換為主）
+
+希望我也能小小的回饋給粉絲
+畢竟每次都是我去拿大家發的應援😅
+
+這次我總共準備五種款式的小卡
+每個款式共有50張
+以隨機抽取的方式領取應援
+
+毛巾的除了交換的以外其餘的會現場發放
+但會有領取條件（請看下方⬇️
+
+📍【領取條件】
+🍭請先出示此貼文
+才可以接下來的步驟喔！
+
+現場毛巾應援物領取條件
+1. 請出示任一項粉絲證明
+2. 毛巾部份除了交換的，現場領取的必須回答一題題目
+
+現場小卡應援物領取條件
+1. 請出示任一項粉絲證明即可領取
+（採用隨即抽取方式領取2張）
+
+⚠️ 數量有限，發完為止。
+⚠️ 一人限領一份，恕不代領。
+⚠️ 請勿插隊或重複領取，共同維護良好的應援文化。
+
+希望能在啤酒節和各位 ONCE 相遇🍻✨
+一起用滿滿的愛為子瑜應援🥰`,
+},
+{
+  id: "_ninil__-01",
+  priorityGroup: "normal",
+  fanAccount: "_ninil__",
+  fanAccountUrl: "https://www.threads.com/@_ninil__",
+  postUrl: "https://www.threads.com/@_ninil__/post/DZzhadtlGuj?xmt=AQG0VvTa9XiUtM6rlqvKIZoJYmVM4yRVhf9HFEWCu8Um5w",
+  category: "綜合類",
+  itemName: "徽章、香片、票根",
+  displayName: "徽章、香片、票根",
+  mainImage: "/images/_ninil__/1.webp",
+  images: [
+    "/images/_ninil__/1.webp",
+    "/images/_ninil__/2.webp",
+    "/images/_ninil__/3.webp",
+    "/images/_ninil__/4.webp",
+    "/images/_ninil__/5.webp",
+  ],
+  hasVideo: false,
+  originalText: `𝟭𝟴𝘁𝗵 𝗕𝗲𝗲𝗿 𝗥𝗼𝗰𝗸 𝗙𝗲𝘀𝘁𝗶𝘃𝗮𝗹 𝘄𝗶𝘁𝗵 𝗧𝘇𝘂
+⋆𐙚₊˚⊹♡𝗔𝗹𝗹 𝗔𝗯𝗼𝘂𝘁𝘇𝘂
+
+大家好～！這裡是Nn!
+
+為了迎接世界第一女兒周子子回家
+這次一樣也準備了啤酒節應援！
+是和 @n7uu._0 一起ㄉ～
+
+˚˖𓍢ִ໋❀=領取規則
+
+1.出示粉絲證明(門票，手燈不算）即可領取
+徽章*1 香片*1 票根＊1
+
+2.當天位置將會發布在 @_ninil__、@n7uu._0 的ig/脆.
+可能會一起發也可能會分開發
+兩人各自有50份！
+
+3.交換：可以直接留言私訊任一，徽章不挑款
+@_ninil__ 現生忙碌 6/30之後開始陸續回覆及預留！
+
+4.歡迎發限動認證！
+子不理特別感謝 @nyy__.xa`,
 },
 ];
