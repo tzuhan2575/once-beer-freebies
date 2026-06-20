@@ -2387,4 +2387,103 @@ B.三隻tzuvely 實體或是照片（需證明為你本人照
 4.歡迎發限動認證！
 子不理特別感謝 @nyy__.xa`,
 },
+{
+  id: "chu._05-01",
+  priorityGroup: "normal",
+  fanAccount: "chu._05",
+  fanAccountUrl: "https://www.threads.com/@chu._05",
+  postUrl: "https://www.threads.com/@chu._05/post/DYj-6gsj1wO?xmt=AQG08BxdITOXmxaWekNt9Zkm56AzIHz9pwCwXlny3TkXHg",
+  category: "實用小物",
+  itemName: "湯匙、叉子",
+  displayName: "湯匙、叉子",
+  mainImage: "/images/chu._05/1.webp",
+  images: ["/images/chu._05/1.webp"],
+  hasVideo: false,
+  originalText: `🍺2026.07.03高雄啤酒音樂節場外發放應援物(⁎⁍̴̛ᴗ⁍̴̛⁎)
+
+我朋朋幫我搶到票啦所以我也能去啤酒節跟大家玩🫶🏻
+
+-
+
+💙應援物是：湯匙、叉子（都是304不鏽鋼可以拿來吃東西🤤）
+
+-
+
+💙數量：各50份
+
+-
+
+💙發放地點&時間：
+當天會公布在脆🍭
+
+-
+
+💙領取條件：身上有TWICE官方周邊
+
+-
+
+叉子無法做圖略顯單調🥲
+希望大家喜歡✌🏻
+
+⚠️注意事項
+1️⃣每人限領一份
+2️⃣應援物不要轉售、丟棄🥲
+
+✔️可以交換應援🫶🏻`,
+},
+{
+  id: "im_ket.chup_-01",
+  priorityGroup: "normal",
+  fanAccount: "im_ket.chup_",
+  fanAccountUrl: "https://www.threads.com/@im_ket.chup_",
+  postUrl: "https://www.threads.com/@im_ket.chup_/post/DZhK3IzlExO?xmt=AQG02WAyYFLHTJ0XAHjpRdIFcZTzowzUZuz3ZsPyOsam4Q",
+  category: "實用小物",
+  itemName: "涼感隨身包濕紙巾",
+  displayName: "涼感濕紙巾",
+  mainImage: "/images/im_ket.chup_/1.webp",
+  images: [
+    "/images/im_ket.chup_/1.webp",
+    "/images/im_ket.chup_/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `2026 KAOHSIUNG BEER ROCK FESTIVAL
+【2026 啤酒節應援發放🍺】
+
+阿囉大家！我們又來啦🍭
+
+經歷過去年的啤酒節 真的是超級熱🥵☀️
+所以這次準備了涼感隨身包濕紙巾
+希望大家在大聲應援子瑜的同時
+也能稍微降降溫 清爽一下～
+
+🧊 應援物內容 🧊
+・涼感隨身包濕紙巾
+
+✨共 10 個版本✨
+・子瑜個人版（70份）
+・子瑜&其他成員 × 8版（各40份）
+・伙食團版（40份）
+
+⚠️ 皆為隨機發放 ⚠️
+
+📍發放資訊
+・日期：7/3（五）
+
+🌟當天會在這則貼文的留言裡發我們的穿著及位置
+將依現場狀況彈性發放
+不會固定在同一個地點
+也會在會場周邊四處走動發放
+歡迎大家來偶遇我們🥰
+
+📝 領取條件
+・讓我們一眼看出你是 ONCE 或追蹤 thinkaboutzu
+
+‼️每人限領一包 不開放代領
+‼️這次不預留交換 但可以現場交換
+
+💡數量有限 發完為止
+💡款式皆隨機發放無法指定成員組合(交換可以挑款)
+
+期待在啤酒節和大家見面🍻💙`,
+},
 ];
