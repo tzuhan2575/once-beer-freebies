@@ -1871,4 +1871,278 @@ ONCE（官方周邊）& 出示本篇貼文`,
 📍應援物主要以交換為優先
 有興趣交換的歡迎留言登記！`,
 },
+{
+  id: "samooo.77-01",
+  priorityGroup: "normal",
+  fanAccount: "samooo.77",
+  fanAccountUrl: "https://www.threads.com/@samooo.77",
+  postUrl: "https://www.threads.com/@samooo.77/post/DZxe1RJE0Fg?xmt=AQG0rJP2eE2Y_Y7mV-gLwPDE85Qfjp8BVsPNAGUo5WwXYg",
+  category: "綜合類",
+  itemName: "卡套、手帕紙",
+  displayName: "卡套、手帕紙",
+  mainImage: "/images/samooo.77/1.webp",
+  images: [
+    "/images/samooo.77/1.webp",
+    "/images/samooo.77/2.webp",
+    "/images/samooo.77/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `嗨嗨大家 ꒰⑅•ᴗ•⑅꒱
+我終於生出啤酒節應援了😮‍💨
+為了歡迎子瑜能來高雄啤酒節🍺💙
+這次我一樣有準備子瑜卡套( ¨̮ )
+還準備了手帕紙
+歡迎大家來找我領取應援🥰
+
+=======
+
+ㄴ🍻發放內容：卡套*20、手帕紙*200
+ㅣ數量及成品以實際發放為主！！ㅣ
+
+ㄴ🍻發放時間：7/3 下午
+ㅣ（準確時間屆時會公布～不確定幾點會到🤣）ㅣ
+
+ㄴ🍻發放地點：可能和朋友在夢時代到處走，可以攔我🥱
+
+ㄴ🍻卡套領取條件：出示本貼文、子瑜泡泡🫧、子瑜周邊、啤酒節門票🎫（以上皆需達到）
+
+ㄴ🍻手帕紙領取條件：出示本貼文、能證明你是萬斯的周邊等…
+
+ㄴ🍻一人限領一個，不可代領❤️‍🔥
+
+ㄴ🍻注意事項：請不要販售、丟棄，如果不喜歡就不要拿🥺，請尊重每個用心準備應援的人🫶🏻
+
+ㄴ特別感謝 / Special thanks
+ㅣ手帕紙使用的飯拍已得到©️X : @tw_ritzu 授權
+ㅣ非常感謝同意我使用來製作啤酒節應援🥹💗天使..💙`,
+},
+{
+  id: "soda0708-01",
+  priorityGroup: "normal",
+  fanAccount: "soda0708",
+  fanAccountUrl: "https://www.threads.com/@soda0708",
+  postUrl: "https://www.threads.com/@soda0708/post/DZwzt19kaJT?xmt=AQG0BcXy_JGfiOYa1_QFGuV3PpFZ_7nksrRP3Ox8XBQDkw",
+  category: "綜合類",
+  itemName: "環保袋、造型餅乾",
+  displayName: "環保袋、造型餅乾",
+  mainImage: "/images/soda0708/1.webp",
+  images: [
+    "/images/soda0708/1.webp",
+    "/images/soda0708/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `2026 高雄啤酒節🍻 應援發放🥂
+
+— 應援物 —
+💙 環保袋
+< 打開 :60×41cm 收起來:11×7cm >
+
+💙 造型餅乾
+< 成份: 麵粉 奶油 雞蛋 糖 鹽巴 食用色素 >
+
+— 領取資訊 —
+📍發放時間、地點｜待公布
+🍭份數：100份
+
+— 領取條件 —
+🧢 穿戴子瑜或TWICE 周邊
+🈲 請勿轉賣、販售
+
+希望當天ONCE們 有時間的話
+可以來領取~ 謝謝🫶`,
+},
+{
+  id: "earlgraytzu-01",
+  priorityGroup: "normal",
+  fanAccount: "earlgraytzu",
+  fanAccountUrl: "https://www.threads.com/@earlgraytzu",
+  postUrl: "https://www.threads.com/@earlgraytzu/post/DZujCQzFAWs?xmt=AQG0wEuQxnOgyzzfKs9Hc1bHKSBiRsLFoLRmTkFscsiprA",
+  category: "配件類",
+  itemName: "小圓鏡鑰匙圈",
+  displayName: "圓鏡鑰匙圈",
+  mainImage: "/images/earlgraytzu/1.webp",
+  images: ["/images/earlgraytzu/1.webp"],
+  hasVideo: false,
+  originalText: `💙𝑻𝒁𝑼𝒀𝑼 |高雄啤酒音樂節應援💙
+𝑲𝒂𝒐𝒉𝒔𝒊𝒖𝒏𝒈 𝑩𝒆𝒆𝒓 𝑹𝒐𝒄𝒌 𝑭𝒆𝒔𝒕𝒊𝒗𝒂𝒍
+
+♖ ɪ ʟᴏᴠᴇ ᴛᴢü 小圓鏡鑰匙圈♖
+
+📍發放時間地點：7月3日（五）
+當日會另行公布完整資訊
+
+📍領取條件：
+❶訂閱子瑜bubble🫧
+❷7/3啤酒節門票
+
+❗️條͟件͟皆͟符͟合͟❗️即可領取一份
+
+\\每人限領一份/
+\\開放當日隨機交換應援物/
+
+(⸝⸝◜𖥦◝⸝⸝)
+
+ꕤ新手上路請包涵，歡迎主動領取
+ꕤ數量有限·發完為止
+ꕤ應援物是我的小小心意
+⚠️嚴禁轉售、丟棄喔🥲
+
+守候11年，家鄉的個人演出初登場
+\\請一起為子瑜大聲應援/(~˘▾˘)~♫•*¨*•.¸¸♪💙`,
+},
+{
+  id: "uuu_0103-01",
+  priorityGroup: "normal",
+  fanAccount: "uuu_0103",
+  fanAccountUrl: "https://www.threads.com/@uuu_0103",
+  postUrl: "https://www.threads.com/@uuu_0103/post/DZceoepkjuh?xmt=AQG0YuRtr-K-3yzTlKms4CVXFVfDkmmFP_c8-7ObeVmNHw",
+  category: "配件類",
+  itemName: "復古鑰匙圈",
+  displayName: "復古鑰匙圈",
+  mainImage: "/images/uuu_0103/1.webp",
+  images: [
+    "/images/uuu_0103/1.webp",
+    "/images/uuu_0103/2.webp",
+    "/images/uuu_0103/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍻7/3子瑜高雄啤酒音樂節免費應援🍻
+
+大家安妞，本次的應援物是復古鑰匙圈✨
+這次靈感來的很快，速速就完成設計了
+實際拿到成品後，顏色比想像中更漂亮，有銀河的感覺💙
+如果喜歡的話歡迎大家多多幫我轉發或分享出去🫶🏻
+
+🐟 應援物：復古鑰匙圈
+🐟 數量：50個，一人限領一份
+🐟 領取時段&地點：當天會在IG/Threads公告
+🐟 領取條件：出示本貼文＋ 粉絲證明 (泡泡、官方週邊...)
+
+❗️注意事項：因為是雕刻上色，可能會有刮痕、板材凹凸，以及一點色差，也不能水洗；鑰匙圈有薄膜，撕下來會更透亮喔~
+
+期待啤酒節與大家相見(◍•ᴗ•◍)`,
+},
+{
+  id: "diu10.20-01",
+  priorityGroup: "normal",
+  fanAccount: "diu10.20",
+  fanAccountUrl: "https://www.threads.com/@diu10.20",
+  postUrl: "https://www.threads.com/@diu10.20/post/DZDZvh2j-sJ?xmt=AQG0NPVVFVmcdGIDjzYq7n70mzY4lW1xnsdm9Q5YkcMiNg",
+  category: "實用小物",
+  itemName: "磁吸開瓶器",
+  displayName: "磁吸開瓶器",
+  mainImage: "/images/diu10.20/1.webp",
+  images: [
+    "/images/diu10.20/1.webp",
+    "/images/diu10.20/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍻7/3高雄啤酒音樂節應援物🍻
+
+免費應援物第一彈
+
+🍭應援物資訊：
+磁吸開瓶器14個
+
+🍭領取方式：持有TWICE至少三個周邊、有子瑜的泡泡、答對問題（以上三個條件達到兩個）
+
+🍭地點：夢時代(當天到了會再發文)
+
+❗❗注意事項❗❗
+💥每人只能領取一次 /禁止重複排隊💥`,
+},
+{
+  id: "diu10.20-02",
+  priorityGroup: "normal",
+  fanAccount: "diu10.20",
+  fanAccountUrl: "https://www.threads.com/@diu10.20",
+  postUrl: "https://www.threads.com/@diu10.20/post/DZHVfa5j8My?xmt=AQG0NPVVFVmcdGIDjzYq7n70mzY4lW1xnsdm9Q5YkcMiNg",
+  category: "配件類",
+  itemName: "膠片吊飾",
+  displayName: "膠片吊飾",
+  mainImage: "/images/diu10.20/3.webp",
+  images: [
+    "/images/diu10.20/3.webp",
+    "/images/diu10.20/4.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍻7/3高雄啤酒音樂節應援物🍻
+
+免費應援物第二彈
+
+🍭應援物資訊：
+膠片吊飾50個
+
+🍭領取方式：持有TWICE至少二個周邊、答對問題（以上二個條件達到一個）
+
+🍭地點：夢時代(當天到了會再發文)
+
+❗❗注意事項❗❗
+💥每人只能領取一次 /禁止重複排隊💥`,
+},
+{
+  id: "diu10.20-03",
+  priorityGroup: "normal",
+  fanAccount: "diu10.20",
+  fanAccountUrl: "https://www.threads.com/@diu10.20",
+  postUrl: "https://www.threads.com/@diu10.20/post/DZx26z-k-_B?xmt=AQG0NPVVFVmcdGIDjzYq7n70mzY4lW1xnsdm9Q5YkcMiNg",
+  category: "實用小物",
+  itemName: "玻璃小酒杯",
+  displayName: "玻璃小酒杯",
+  mainImage: "/images/diu10.20/5.webp",
+  images: ["/images/diu10.20/5.webp"],
+  hasVideo: false,
+  originalText: `🍻7/3高雄啤酒音樂節應援物🍻
+
+免費應援物第三彈
+
+🍭應援物資訊：
+玻璃小酒杯30個
+
+🍭領取方式：使用momo圈語（說出萌几愛几+手勢）
+
+🍭地點：夢時代(當天到了會再發文)
+
+❗❗注意事項❗❗
+💥每人只能領取一次 💥`,
+},
+{
+  id: "oneofnights-01",
+  priorityGroup: "normal",
+  fanAccount: "oneofnights",
+  fanAccountUrl: "https://www.threads.com/@oneofnights",
+  postUrl: "https://www.threads.com/@oneofnights/post/DYg-fzxk5sT?xmt=AQG0uM3bDPioL_6ruLXk2g19n_ulbJUnBzSTRwt9losWjQ",
+  category: "實用小物",
+  itemName: "玻璃啤酒杯",
+  displayName: "玻璃啤酒杯",
+  mainImage: "/images/oneofnights/1.webp",
+  images: ["/images/oneofnights/1.webp"],
+  hasVideo: false,
+  originalText: `𝑻𝒛𝒖𝒚𝒖 💙
+《18𝒕𝒉 𝑩𝑬𝑬𝑹 𝑹𝑶𝑪𝑲 𝑭𝑬𝑺𝑻𝑰𝑽𝑨𝑳》
+
+大家期待已久的啤酒節來啦！✨
+這次請似顏繪作者將子瑜品牌大使形象照
+結合臺灣小物繪製成超級可愛的貼圖
+並貼在玻璃啤酒杯上！
+
+因為製作數量不多，這次希望能以「交換應援」為主，讓大家的心意彼此交流！
+
+📍 時間 & 地點
+時間：7/3 中午 12:00 後
+地點：會場入口附近
+
+⚠️ 重要注意事項（請詳閱）
+‼️嚴禁轉售、禁止任何商業盈利行為
+
+本次應援所使用的圖
+皆已提前向原作者說明用途
+並承諾「絕無任何盈利行為」
+已徵得作者同意✅️
+
+請尊重智慧財產權，讓我們一起開心地享受啤酒節，安全、禮貌地交換吧！
+現場見囉！乾杯！🍻✨
+
+（示意圖供參考，以實物為準）`,
+},
 ];
