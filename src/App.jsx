@@ -743,7 +743,23 @@ function App() {
             <p className="sync-warning">
               提醒：若使用 Google 收藏同步，建議同一時間只在一個裝置操作收藏，避免多裝置同時修改造成收藏狀態不同步。
             </p>
-          </header>
+                    </header>
+
+          <section className="notice-card">
+            <h2>使用前小提醒</h2>
+
+            <p>
+              本網站主要協助整理公開發布的應援物資訊，實際發放時間、地點、數量與領取條件，請以創作者原文為準。
+            </p>
+
+            <p>
+              如果看到喜歡的應援物，建議追蹤創作者帳號，才能獲得最即時的更新。
+            </p>
+
+            <p>
+              若創作者本人希望修改或撤下資訊，可在該筆詳細頁點選「原作者申請修改或撤下」聯繫我協助處理。
+            </p>
+          </section>
 
           <section className="filters">
             <input
