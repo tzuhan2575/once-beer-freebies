@@ -5,6 +5,34 @@ export const siteLinks = {
 
 export const freebies = [
   {
+  id: "leanne11_a-01",
+  priorityGroup: "featured",
+  fanAccount: "leanne11_a",
+  fanAccountUrl: "https://www.threads.com/@leanne11_a",
+  postUrl: "https://www.threads.com/@leanne11_a/post/DZ2W3Plkv94?xmt=AQG0jfxwFDloDsyvHHbVmAHmDBNer6velqEIrmCbs2xZuw",
+  category: "紙本類",
+  itemName: "貼紙",
+  displayName: "貼紙",
+  mainImage: "/images/leanne11_a/1.webp",
+  images: ["/images/leanne11_a/1.webp"],
+  hasVideo: false,
+  originalText: `💙TWICE TZUYU高雄啤酒節應援物🍻
+
+再不到兩個禮拜就要見到我們家子子啦！
+(((o(*ﾟ▽ﾟ*)o)))
+
+7/3 總共有 2 款應援物貼紙發放🎁
+
+當天下午會在活動地點當NPC四處遊走
+歡迎大家捕捉（？）野生的工作室成員獲取貼紙
+或許還有機會玩投票ㄛ :3
+
+ᴅᴇꜱɪɢɴᴇᴅ ʙʏ企鵝吃鯊魚工作室
+
+@tzuhan_once
+@tmpss94393`,
+},
+  {
     id: "clovercro-01",
     priorityGroup: "normal",
     fanAccount: "clovercro",
