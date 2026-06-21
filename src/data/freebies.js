@@ -2560,4 +2560,57 @@ B.三隻tzuvely 實體或是照片（需證明為你本人照
 可以交換應援💙😍😍
 歡迎大家來就找我領取或交換唷💙💙💙`,
 },
+{
+
+  id: "galactic._.0-01",
+
+  priorityGroup: "normal",
+
+  fanAccount: "galactic._.0",
+
+  fanAccountUrl: "https://www.threads.com/@galactic._.0",
+
+  postUrl: "https://www.threads.com/@galactic._.0/post/DYm432zEo1L?xmt=AQG0JjZNdBqietAWU_IGPnKvzo7M8EfB6H4PYJs4391RkmFP9SImDuHtLhyLSx_JCH5df18h&slof=1",
+
+  category: "紙本類",
+
+  itemName: "貼紙簿",
+
+  displayName: "貼紙簿",
+
+  mainImage: "/images/galactic._.0/1.webp",
+
+  images: ["/images/galactic._.0/1.webp"],
+
+  hasVideo: false,
+  originalText: `2026.07.03高雄啤酒節
+
+ଘ*⑅┈┈⋆°˖ ┈┈ ୨୧┈┈°⋆┈┈⑅*ଓ
+
+大家好
+這邊年紀輕輕想養老(*´︶\`*)
+
+是的說到做到的買到搖滾區的票就做應援
+還有要做貼紙簿應援的部分真的來了嘿嘿嘿
+
+想做貼紙簿
+是因為想要好好收納領取到的大家的應援貼紙
+
+封面的部分模仿出道專輯的排版
+希望大家喜歡(人*´∀｀)｡*ﾟ+
+
+目前啤酒節備戰狀態65%（努力中）
+甚至努力做了應援色的手燈套💙
+每天努力背應援ing
+
+一些關於應援物的資訊
+
+尺寸：A5
+內頁：24頁 黃色
+數量：50本
+
+時間地點及索取方式靠近一點會公布.ᐟ.ᐟ
+
+沒意外的話也會和台北場一樣開一個足跡樓`,
+},
 ];
