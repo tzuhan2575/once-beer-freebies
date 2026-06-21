@@ -2514,4 +2514,50 @@ B.三隻tzuvely 實體或是照片（需證明為你本人照
 
 期待在啤酒節和大家見面🍻💙`,
 },
+{
+  id: "twice_once_999-01",
+  priorityGroup: "normal",
+  fanAccount: "twice_once_999",
+  fanAccountUrl: "https://www.threads.com/@twice_once_999",
+  postUrl: "https://www.threads.com/@twice_once_999/post/DZBpVbbkjek?xmt=AQG04-s4iabhzjSSGDOAoTTHqcb9QBp8A4fKaZDKQqyoSg",
+  category: "實用小物",
+  itemName: "小圓鏡",
+  displayName: "小圓鏡",
+  mainImage: "/images/twice_once_999/1.webp",
+  images: [
+    "/images/twice_once_999/1.webp",
+    "/images/twice_once_999/2.webp",
+    "/images/twice_once_999/3.webp",
+    "/images/twice_once_999/4.webp",
+    "/images/twice_once_999/5.webp",
+  ],
+  hasVideo: false,
+  originalText: `2026💙高雄啤酒音樂節場外子瑜應援物發放公告
+
+去年賊賊啤酒節沒時間能做應援物有點可惜
+所以今年子瑜的部分提早做了應援物💙💙
+
+這次應援物是：隨身攜帶的小圓鏡耶，總共有四種圖案
+
+-
+
+數量：各100份唷
+
+-
+
+發放地點&時間：
+時間：7/3當天早上大約10點左右開始
+地點：當天會在脆上面說喔
+
+-
+
+領取條件：攜帶TWICE 的周邊或其他應援物
+
+⚠️注意事項
+1️⃣每人最多可以領取2種不同款式
+2️⃣應援物不可轉售、丟棄
+
+可以交換應援💙😍😍
+歡迎大家來就找我領取或交換唷💙💙💙`,
+},
 ];
