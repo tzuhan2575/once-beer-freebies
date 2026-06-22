@@ -2613,4 +2613,111 @@ B.三隻tzuvely 實體或是照片（需證明為你本人照
 
 沒意外的話也會和台北場一樣開一個足跡樓`,
 },
+{
+  id: "twice.1020.love-01",
+  priorityGroup: "normal",
+  fanAccount: "twice.1020.love",
+  fanAccountUrl: "https://www.threads.com/@twice.1020.love",
+  postUrl: "https://www.threads.com/@twice.1020.love/post/DZ20z2Ckm-h?xmt=AQG0j8AI6jm0uCwzlQPSGDZSfUvncxgUSbh4Qv5btEs6yQ",
+  category: "實用小物",
+  itemName: "手搖旗",
+  displayName: "手搖旗",
+  mainImage: "/images/twice.1020.love/1.webp",
+  images: ["/images/twice.1020.love/1.webp"],
+  hasVideo: false,
+  originalText: `半夜來放一下啤酒節要發的應援😗
+
+窩要發的是手搖旗～～～😍
+
+我大概會在中午到達現場
+會在夢時代裡面吃飯
+
+實際發的地點或是出現在哪裡會再發或是在群組裡告知
+
+不可以代領❗️
+身上要有我可以分辨你是ONCE的東西❗️
+或是拿出這篇貼文給我看❗️
+
+要來找我歐🫶`,
+},
+{
+  id: "once._.9623-01",
+  priorityGroup: "normal",
+  fanAccount: "once._.9623",
+  fanAccountUrl: "https://www.threads.com/@once._.9623",
+  postUrl: "https://www.threads.com/@once._.9623/post/DZ2ZPJhE3Ix?xmt=AQG0fAe6jebcOXsptT-qLffu6Io556EY7cLco-efjG-OBA",
+  category: "實用小物",
+  itemName: "磁鐵開瓶器",
+  displayName: "磁鐵開瓶器",
+  mainImage: "/images/once._.9623/1.webp",
+  images: [
+    "/images/once._.9623/1.webp",
+    "/images/once._.9623/2.webp",
+    "/images/once._.9623/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `💙2026 高雄啤酒音樂節 子瑜應援物發放🍻
+
+搭給賀～
+
+因應啤酒節，做了開瓶器應援物來免費發放🍺
+這是子瑜在臺灣的第一個個人活動，必須要支持一下💙
+第一次做應援，如果有哪裡做得不好再請見諒😌
+
+🍭應援物
+磁鐵開瓶器
+
+🍭發放時間&地點
+7/3（五）
+確切的時間地&點會再更新在這篇文章的留言
+（目前預計是下午發～）
+
+🍭領取條件
+1. 出示兩個TWICE的周邊（手燈也可以）
+
+🈲請勿轉賣或轉售
+
+開瓶器上的子不理穿得是子瑜solo預告片的小黃裙哦哦哦哦哦
+（真的超喜歡這套😍
+
+到底要做磁鐵還是鑰匙圈糾結了很久，
+最後選了磁鐵想說讓大家都可以吸在家裡的冰箱上
+（圖2為在冰箱上的樣子🤣）
+
+選了會blingbling的材質，
+所以拍起來會亮亮的，在陽光下會更明顯✨✨
+
+大概是這樣子，大家如果有喜歡的話記得來找我領💙`,
+},
+{
+  id: "_1yyang_4.9-01",
+  priorityGroup: "normal",
+  fanAccount: "_1yyang_4.9",
+  fanAccountUrl: "https://www.threads.com/@_1yyang_4.9",
+  postUrl: "https://www.threads.com/@_1yyang_4.9/post/DZ2jO2LiRqn?xmt=AQG03gqt_-93ByYZUXsiO5EkPBZLIANG7p0MAdoKrfCM-g",
+  category: "配件類",
+  itemName: "吊飾",
+  displayName: "吊飾",
+  mainImage: "/images/_1yyang_4.9/1.webp",
+  images: [
+    "/images/_1yyang_4.9/1.webp",
+    "/images/_1yyang_4.9/2.webp",
+    "/images/_1yyang_4.9/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `7/3 子瑜高雄啤酒節 免費/交換應援
+
+這次一樣做吊飾
+
+總共100份
+
+領取條件：
+出示票根、泡泡、手燈……..等等的粉證
+（交換不用出示證明）
+
+可以直接私訊我或留言
+我會先記下來！
+
+詳細地點到場會發出來`,
+},
 ];
