@@ -2720,4 +2720,57 @@ B.三隻tzuvely 實體或是照片（需證明為你本人照
 
 詳細地點到場會發出來`,
 },
+{
+  id: "zhizhime_-01",
+  priorityGroup: "normal",
+  fanAccount: "zhizhime_",
+  fanAccountUrl: "https://www.threads.com/@zhizhime_",
+  postUrl: "https://www.threads.com/@zhizhime_/post/DZK45Cukhki?xmt=AQG0DALSKG9wv5VQ7KByJQ7ZMWE0LSalojZSBdlBX1j2DRM-6XooDq1fRmFqhn5DRkrmEZ4&slof=1",
+  category: "實用小物",
+  itemName: "PP夾",
+  displayName: "PP夾",
+  mainImage: "/images/zhizhime_/1.webp",
+  images: ["/images/zhizhime_/1.webp"],
+  hasVideo: false,
+  originalText: `經過幾次的修改後
+打樣出來啦～～
+
+但因為登山扣預算以及材質不是很滿意
+最後決定只有做pp夾 100個❗️💙
+
+到時候歡迎大家來跟我領取🙏🏼
+
+如果有想要交換的希望到時候可以大家約一個地方一起交換❓
+上次跑來跑去太累了😳🫩`,
+},
+{
+  id: "heyjiali___-01",
+  priorityGroup: "normal",
+  fanAccount: "heyjiali___",
+  fanAccountUrl: "https://www.threads.com/@heyjiali___",
+  postUrl: "https://www.threads.com/@heyjiali___/post/DZPQIUMk0ip?xmt=AQG0p-WdfdcVfYglycmRe9DYfaqwk1VLzZDDU-yYhoNb5O1GRE8psf9dae2lBLkh19qOZUR&slof=1",
+  category: "配件類",
+  itemName: "捏捏鑰匙圈",
+  displayName: "捏捏鑰匙圈",
+  mainImage: "/images/heyjiali___/1.webp",
+  images: ["/images/heyjiali___/1.webp"],
+  hasVideo: false,
+  originalText: `𝟮𝟬𝟮𝟲高雄啤酒節｜捏捏周子瑜鑰匙圈佛系發放
+
+💙數量：40個
+
+💙領取方式：出示TWICE手燈
+（很鬆了吧 一人限領一個）
+
+💙領取時間：7/3
+（實際時間不確定 我好像很晚才會到🤣）
+
+💙領取地點：到時候就在夢時代旁邊隨緣發
+（跟那邊不熟）
+
+🫰🏾拿到的希望可以不要丟掉🤓
+🫰🏾禮貌發問 我真的很害怕沒禮貌的人
+
+沒什麼 我只是在清河道`,
+},
 ];
