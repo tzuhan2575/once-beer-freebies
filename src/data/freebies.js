@@ -2773,6 +2773,35 @@ B.三隻tzuvely 實體或是照片（需證明為你本人照
 
 沒什麼 我只是在清河道`,
 },
+{
+
+  id: "once._.11301109-01",
+
+  priorityGroup: "normal",
+
+  fanAccount: "once._.11301109",
+
+  fanAccountUrl: "https://www.threads.com/@once._.11301109",
+
+  postUrl: "https://www.threads.com/@once._.11301109/post/DYZtW2hj7Xq?xmt=AQG0LeXZb52KUDuiqDPYHrysnyKtqSHbJWe48tfeNEkwSQ",
+
+  category: "實用小物",
+
+  itemName: "面紙",
+
+  displayName: "面紙",
+
+  mainImage: "/images/once._.11301109/1.webp",
+
+  images: [
+
+    "/images/once._.11301109/1.webp",
+
+    "/images/once._.11301109/2.webp",
+
+  ],
+
+  hasVideo: false,
 originalText: `💙7/3高雄啤酒音樂節TZUYU應援面紙發放🍻
 
 *･゜ﾟ･*:.｡..｡.:*･'⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄･*:.｡. .｡.:*･゜ﾟ･*
@@ -2803,4 +2832,5 @@ originalText: `💙7/3高雄啤酒音樂節TZUYU應援面紙發放🍻
 📋：不貼心小提醒：
 早上十點感覺就會開始變熱了
 大家記得做好防曬、補充水分 不要中暑了！`,
+},
 ];
