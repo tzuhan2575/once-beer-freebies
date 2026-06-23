@@ -2833,4 +2833,84 @@ originalText: `💙7/3高雄啤酒音樂節TZUYU應援面紙發放🍻
 早上十點感覺就會開始變熱了
 大家記得做好防曬、補充水分 不要中暑了！`,
 },
+{
+  id: "__3.uw__-01",
+  priorityGroup: "normal",
+  fanAccount: "__3.uw__",
+  fanAccountUrl: "https://www.threads.com/@__3.uw__",
+  postUrl: "https://www.threads.com/@__3.uw__/post/DZ33cU6mREg?xmt=AQG0qveJpS1etSNPRm3eFC036kKWwp6OMXjZ_Oq4zP3M0bFI0RwAk7u_EH9rQ8lM_drUgwgj&slof=1",
+  category: "綜合類",
+  itemName: "卡套、吊牌",
+  displayName: "卡套、吊牌",
+  mainImage: "/images/__3.uw__/1.webp",
+  images: ["/images/__3.uw__/1.webp"],
+  hasVideo: false,
+  originalText: `𝟐𝟎𝟐𝟔 𝐁𝐄𝐄𝐑 𝐑𝐎𝐂𝐊 𝐅𝐄𝐒𝐓𝐈𝐕𝐀𝐋
+免費應援發放🍭
+
+為了紀念子瑜來參加高雄啤酒節
+這邊準備了應援物要送給各位ONCE ´͈ ᵕ \`͈
+
+應援物：子瑜卡套、子瑜吊牌（一人只能擇一領取）
+數量：各50個
+
+發放資訊🔽
+ꔛ發放時間：7/3（五）約12:00左右
+ꔛ發放地點：這次可能會隨機走動
+ꔛ領取條件：出示這篇貼文及子瑜周邊
+（為了讓真正想領到的朋友能夠領到，這次會嚴格實行‼️）
+
+當天會再公佈確切領取資訊
+如果隨機走動也會公布地點，讓大家順利找到我✔
+
+注意事項🔽
+ꔛ領取時請出示貼文，每人限領一份，不可代領
+ꔛ應援物禁止二改及轉售
+ꔛ預約交換資訊可看下方
+
+————————————
+
+預約交換說明♡ˊ˗
+
+‼️子瑜卡套預約交換名額已滿‼️
+
+目前只剩下子瑜吊牌可以預約交換，名額也有限
+
+如果想要交換的朋友可以放上你們的應援物～
+如果人多可能就會挑選><
+因為名額有限，不好意思🙏
+
+不過歡迎大家直接帶著您的應援物來找我交換
+預約交換名額雖然有限，但現場交換名額不限～
+
+歡迎大家一起來玩😍`,
+},
+{
+  id: "yu_hsin902-01",
+  priorityGroup: "normal",
+  fanAccount: "yu_hsin902",
+  fanAccountUrl: "https://www.threads.com/@yu_hsin902",
+  postUrl: "https://www.threads.com/@yu_hsin902/post/DZ7Ll9ym8mq?xmt=AQG0mq29TcMdlRmxoGnYdhPMT_UuMHBwjRTyyebKyPJS9ZV_kh6vh5ikTv_2UFNHtPQv0vtZ&slof=1",
+  category: "紙本類",
+  itemName: "雙面子瑜閃卡",
+  displayName: "閃卡",
+  mainImage: "/images/yu_hsin902/1.webp",
+  images: ["/images/yu_hsin902/1.webp"],
+  hasVideo: false,
+  originalText: `🍺7/3高雄啤酒節應援物發放🍺
+
+📌應援物品：雙面子瑜閃卡
+（比711的閃卡還閃😹）
+
+📌發放日期：7/3
+
+📌發放地點：到時候會公布在脆跟哀居
+
+📌領取條件：出示任意TWICE官方周邊
+
+‼️一人限領取一張，請勿重複或代領‼️
+
+也歡迎跟我交換應援物
+數量不多，想要的可以先追蹤開提醒🔔`,
+},
 ];
