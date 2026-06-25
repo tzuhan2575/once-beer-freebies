@@ -3005,4 +3005,187 @@ originalText: `💙7/3高雄啤酒音樂節TZUYU應援面紙發放🍻
 3.若交換完畢會在底下留言區公告
 4.設計若有雷同純屬巧合，本次應援物為本人自己想到並設計的`,
 },
+{
+  id: "657260_-01",
+  priorityGroup: "normal",
+  fanAccount: "657260_",
+  fanAccountUrl: "https://www.threads.com/@657260_",
+  postUrl: "https://www.threads.com/@657260_/post/DZ-IGeUEo_H?xmt=AQG0uHvhkOC0LPWM40w_SF-kYo2rW1VtNPF7rQCaQuw_1w",
+  category: "綜合類",
+  itemName: "磁鐵、貼紙",
+  displayName: "磁鐵、貼紙",
+  mainImage: "/images/657260_/1.webp",
+  images: [
+    "/images/657260_/1.webp",
+    "/images/657260_/2.webp",
+    "/images/657260_/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `2026高雄啤酒音樂節 應援物來咯！💙
+
+等好久終於收到實體啦
+這次是磁鐵跟貼紙～
+
+磁鐵是全員都有但是隨機發不挑成員ㄡ！
+貼紙全部都是子瑜的有10種圖！
+尺寸都大概是5公分
+
+🦌領取方式
+> Once證明（周邊/手燈/泡泡⋯）
+> 追蹤TWICE&子瑜官方IG
+
+🦌注意事項
+異形磁鐵切割難免邊緣會不平整，介意者請注意！
+磁鐵表面都有保護膜，所以看到刮痕的話應該都是在膜上的痕跡！
+數量沒有很多，所以發完為止！
+
+啤酒節當天抵達後再發文
+領取的地點、當日穿著等等
+有興趣都可以先追蹤脆
+這隻脆帳號就是專門開來宣傳應援ㄉ！`,
+},
+{
+  id: "thinkaboutzu.twice0614-01",
+  priorityGroup: "normal",
+  fanAccount: "thinkaboutzu.twice0614",
+  fanAccountUrl: "https://www.threads.com/@thinkaboutzu.twice0614",
+  postUrl: "https://www.threads.com/@thinkaboutzu.twice0614/post/DZ9_QRlFIGv?xmt=AQG0s3sTG6Ft-fkH41B-WTHkEFyc7SguLviHA1f-i150uQ",
+  category: "配件類",
+  itemName: "刺繡徽章別針",
+  displayName: "刺繡徽章別針",
+  mainImage: "/images/thinkaboutzu.twice0614/1.webp",
+  images: [
+    "/images/thinkaboutzu.twice0614/1.webp",
+    "/images/thinkaboutzu.twice0614/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍻7/3 高雄啤酒節 TZUYU 應援物免費發放&交換🍻
+
+大家好٩(˃̶͈̀௰˂̶͈́)و
+
+這次也準備了小小應援物要跟大家分享～
+距離啤酒節只剩下9天，
+又快要見到周子瑜💙了，真的超期待😍
+
+🍭應援物：刺繡徽章別針
+
+🍭應援物發想：
+說到啤酒節 當然少不了啤酒啦🍺
+這次特別畫了喝醉的子拉不哩🐢
+希望大家看到都能感受到歡樂的氣氛
+讓我們一起陪著子瑜度過開心的啤酒節吧\\(//∇//)\\
+
+🍭數量：30個
+
+🍭發放時間：07/03（五）
+✨當天決定在哪發放
+
+💫💫💫領取條件：
+符合以下其中一項即可
+✨身上有任何一位成員的拉不哩
+✨任一成員泡泡
+
+另外還需要
+✨有一顆愛著TWICE的心
+✨出示此篇貼文
+
+💫💫💫注意事項：
+✨每個人限領一份
+✨請好好珍惜，不要隨意丟棄🥹
+✨禁止轉賣
+
+🍭小小聲碎碎念：
+這次準備的數量也沒有很多
+不過還是會擔心發不完😖
+如果在現場看到我，真的不用害羞！
+歡迎大家來找我領取或交換，我都會非常開心☺️
+
+第二張圖片是應援物的實體，希望大家會喜歡～
+
+希望 7/3 能和大家一起留下美好的回憶💙`,
+},
+{
+  id: "5qqc_yoyoo-01",
+  priorityGroup: "normal",
+  fanAccount: "5qqc_yoyoo",
+  fanAccountUrl: "https://www.threads.com/@5qqc_yoyoo",
+  postUrl: "https://www.threads.com/@5qqc_yoyoo/post/DZ9vZCjn50p?xmt=AQG0GWaZaM3_Gbuy6VrEPaslMghQ6AhE1wxwWGxNpclOmg",
+  category: "配件類",
+  itemName: "電子雞壓克力吊飾",
+  displayName: "電子雞壓克力吊飾",
+  mainImage: "/images/5qqc_yoyoo/1.webp",
+  images: ["/images/5qqc_yoyoo/1.webp"],
+  hasVideo: false,
+  originalText: `𝟤𝟢𝟤𝟨 𝘉𝘌𝘌𝘙 𝘙𝘖𝘊𝘒 𝘍𝘌𝘚𝘛𝘐𝘝𝘈𝘓 𝘪𝘯 𝘒𝘈𝘖𝘏𝘚𝘐𝘕𝘎
+𝘍𝘰𝘳. 𝘛𝘡𝘜𝘠𝘜💙
+
+高雄啤酒節免費應援 ‧ ‧ ₊ ˚✧‎ദ്ദിᵔ.˛.ᵔ₎
+
+大家好我是𝘺𝘰𝘺𝘰.ᐟ.ᐟ
+這次做了一直很想做ㄉ電子雞吊飾
+歡迎各位來找我領取/交換✧
+
+👾發放日期：𝟤𝟢𝟤𝟨.𝟢𝟩.𝟢𝟥
+這次隨緣發放，會到處走.ᐟ.ᐟ
+當天抵達場外會在留言區貼上穿搭
+
+👾數量：兩款共𝟤𝟧份
+這次不開放預約交換｜僅限現場領取&交換
+
+👾應援內容：☆電子雞壓克力吊飾☆
+雙面設計、尺寸約𝟨𝘤𝘮
+
+👾注意事項：每人限領一份｜兩款隨機發放
+請勿轉售、隨意丟棄、代領、不禮貌
+
+👾領取條件：子布哩周邊（或訂閱🫧）& 出示此篇貼文
+
+𖤐⭒๋࣭ ⭑原本這次沒有要做應援ㄉ
+但因緣際會下設計了這款吊飾
+想說訂少少量發給喜歡的𝘖𝘕𝘊𝘌
+希望領到的人能好好珍惜✩°｡⋆⸜(˙꒳​˙ )
+喜歡的話也歡迎各位幫我分享.ᐟ.ᐟ
+
+𝟩月𝟥號見♡`,
+},
+{
+  id: "yz.11__-01",
+  priorityGroup: "normal",
+  fanAccount: "yz.11__",
+  fanAccountUrl: "https://www.threads.com/@yz.11__",
+  postUrl: "https://www.threads.com/@yz.11__/post/DZ7XwfWCRGS?xmt=AQG0zUjkDuGQtp-CDZk43bx1rR_RRFoArcGma29l8qpMJQ",
+  category: "配件類",
+  itemName: "吊牌",
+  displayName: "吊牌",
+  mainImage: "/images/yz.11__/1.webp",
+  images: [
+    "/images/yz.11__/1.webp",
+    "/images/yz.11__/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `2026高雄啤酒音樂節🍺 子瑜吊牌應援💙
+
+🎊慶祝子瑜首次來參加啤酒音樂節
+準備了跟去年一樣的吊牌來分享給萬斯！
+
+💙應援物：吊牌
+
+💙領取條件：
+1. 需要出示本篇貼文
+2. 出示2個粉絲證明
+例如：手燈、拉布哩
+（因為之前真的有太多不是粉絲的人來領取
+所以這次會比較嚴格🙇🏻‍♀️）
+
+💙時間、地點 當天會公布
+大約3、4點才會到達現場
+
+⚠️每人限領一份
+
+想要交換應援的萬斯可以直接幫我留言～
+
+❗️這次有準備線上應援
+怕當天找不到我們的可以線上領取！
+線上應援資訊放留言處⬇️`,
+},
 ];
