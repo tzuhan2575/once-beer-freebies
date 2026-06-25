@@ -2913,4 +2913,96 @@ originalText: `💙7/3高雄啤酒音樂節TZUYU應援面紙發放🍻
 也歡迎跟我交換應援物
 數量不多，想要的可以先追蹤開提醒🔔`,
 },
+{
+  id: "bill_lee1206-01",
+  priorityGroup: "normal",
+  fanAccount: "bill_lee1206",
+  fanAccountUrl: "https://www.threads.com/@bill_lee1206",
+  postUrl: "https://www.threads.com/@bill_lee1206/post/DZ97DiHj_xB?xmt=AQG0cCgSZxUPZFmpzX4ZgI2MXRm_s5b9Dx9lEL82SxHGChO7DyBSAKIy4fTbWfd6W-Sz_VI8&slof=1",
+  category: "綜合類",
+  itemName: "NFC 迷你專輯、NFC 黑膠吊飾、髮夾",
+  displayName: "NFC 迷你專輯、吊飾、髮夾",
+  mainImage: "/images/bill_lee1206/1.webp",
+  images: [
+    "/images/bill_lee1206/1.webp",
+    "/images/bill_lee1206/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `見到子瑜的日子即將進入最後倒數啦！
+
+🎁 應援物清單
+（數量有限，發完為止）
+
+💿 NFC 迷你專輯 — 50 組
+（留言續更新實體照）
+
+💿 NFC 黑膠吊飾 — 35 組
+（圖二）
+
+🎀 子瑜應援髮夾 — 100 組
+（圖一）
+（共5款，款式隨機發放）
+
+✨ 🎁 免費應援發放領取任務：
+只要完成以下簡單 2 步驟，
+就能獲得領取資格！
+
+1️⃣ 點擊頭像追蹤我的 Threads
+（鎖定最新消息）
+
+2️⃣ 追蹤指定的 IG 帳號
+【big_head1206】我的開箱IG
+【rqream2020531】YT頻道的IG
+
+👇 完成後，在這篇貼文下方
+【你最想要哪一個品項？】
+
+📍 領取時間/地點/穿著：
+【7/3當天限動公告，預計中午過後】
+歡迎大家踴躍轉發本貼文！
+
+⚠️
+（要交換的完成第1️⃣步驟就可以嘍）
+
+⚠️
+（先前已預定交換的不受影響）`,
+},
+{
+  id: "ring.heart_mo-01",
+  priorityGroup: "normal",
+  fanAccount: "ring.heart_mo",
+  fanAccountUrl: "https://www.threads.com/@ring.heart_mo",
+  postUrl: "https://www.threads.com/@ring.heart_mo/post/DZXi-53gbux?xmt=AQG0A8RKqOSXzdZSY6Ia3I_Q-pTx3uRgShRUIVpUFgSR7JzKFHIIXbLgws4EKxmf6i7sDLQ&slof=1",
+  category: "實用小物",
+  itemName: "鍵帽",
+  displayName: "鍵帽",
+  mainImage: "/images/ring.heart_mo/1.webp",
+  images: [
+    "/images/ring.heart_mo/1.webp",
+    "/images/ring.heart_mo/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍺高雄啤酒節應援🍺
+ᴛᴡɪᴄᴇ ᴛᴢᴜʏᴜ 💙
+
+----------
+
+哈嘍大家～這次做了一些按鍵(鍵帽)，但因為成本對我而言有點小貴🥲，所以採交換應援的方式！
+有任何問題都可以問！
+
+----------
+
+📌日期：7/3（五）
+📌地點：尚未確認
+📌領取條件：交換應援
+📌數量：40份左右
+
+----------
+
+⚠️注意⚠️
+1.不喜歡可以不要領拜託不要把他丟掉😖
+2.本人到時候應該會在附近遊蕩，位置和具體時間到時候一律在這裡說
+3.若交換完畢會在底下留言區公告
+4.設計若有雷同純屬巧合，本次應援物為本人自己想到並設計的`,
+},
 ];
