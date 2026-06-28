@@ -3188,4 +3188,156 @@ originalText: `💙7/3高雄啤酒音樂節TZUYU應援面紙發放🍻
 怕當天找不到我們的可以線上領取！
 線上應援資訊放留言處⬇️`,
 },
+{
+  id: "yichun0710_-01",
+  priorityGroup: "normal",
+  fanAccount: "yichun0710_",
+  fanAccountUrl: "https://www.threads.com/@yichun0710_",
+  postUrl: "https://www.threads.com/@yichun0710_/post/DaFqtftmWD1?xmt=AQG0J5M7pNNvzE4toyQxl1mN4Xc4dXwsUGaJfcvl1kOAcA",
+  category: "實用小物",
+  itemName: "開瓶器",
+  displayName: "開瓶器",
+  mainImage: "/images/yichun0710_/1.webp",
+  images: ["/images/yichun0710_/1.webp"],
+  hasVideo: false,
+  originalText: `2026-07-03 高雄啤酒音樂節
+
+˗ˋˏ BABY TZUYU 開瓶器應援 ˎˊ˗
+
+因為是啤酒節 所以這次做了開瓶器🍻！
+
+꩜ 50份
+꩜ 隨機發放
+
+（擔心現場混亂 所以不開放交換呦
+我會在路上認周邊隨機發給你！）
+
+🚫喝酒不開車 開車不喝酒🚫
+祝萬斯們都能玩得開心！`,
+},
+{
+  id: "1111111111111__._-01",
+  priorityGroup: "normal",
+  fanAccount: "1111111111111__._",
+  fanAccountUrl: "https://www.threads.com/@1111111111111__._",
+  postUrl: "https://www.threads.com/@1111111111111__._/post/DaG8ZdaE17u?xmt=AQG0iGuMMkksiHEd0EB2NfSPxuPwbpnXVYFpCjqNY10uTw",
+  category: "實用小物",
+  itemName: "滑動拼圖",
+  displayName: "滑動拼圖",
+  mainImage: "/images/1111111111111__._/1.webp",
+  images: ["/images/1111111111111__._/1.webp"],
+  hasVideo: false,
+  originalText: `🍻💙0703高雄啤酒音樂節應援💙🍻
+
+做應援做上癮了
+這次不是pick了 是滑動拼圖🧩
+
+這次準備超多 大概有150份
+拜託大家來跟我交換或領取ヽ(´o｀
+
+我已經準備好要大玩一波交換應援的大地遊戲了
+
+💙當天會在公佈時間和具體位置
+💙有想交換的可以先跟我說
+
+🍻除了交換以外也會隨機發放
+🍻當天抓到我出示此貼文及任一周邊即可領取
+
+我還有少量台北場沒發完的pick
+一樣也隨機發放 但真的剩一點點而已`,
+},
+{
+  id: "tina1127_oc-01",
+  priorityGroup: "normal",
+  fanAccount: "tina1127_oc",
+  fanAccountUrl: "https://www.threads.com/@tina1127_oc",
+  postUrl: "https://www.threads.com/@tina1127_oc/post/DaH_YGZkelf?xmt=AQG0WvRWrHG5vezmFIYqd0FLByqje2QGtwXMk4pxoXoZWw",
+  category: "實用小物",
+  itemName: "小圓鏡",
+  displayName: "小圓鏡",
+  mainImage: "/images/tina1127_oc/1.webp",
+  images: ["/images/tina1127_oc/1.webp"],
+  hasVideo: false,
+  originalText: `𝗧𝗭𝗨𝗬𝗨子瑜高雄啤酒節 免費應援物第一彈🎁
+
+🌟小圓鏡:
+特別選擇SIXTEEN時期
+子瑜初次亮相的穿著
+請朋友繪製Q版圖案
+
+🌟數量:200份
+
+🌟領取規則：7/2會發文公告
+
+⚠️注意:
+禁止轉售、重製使用卡通圖、丟棄`,
+},
+{
+  id: "amily_08_30-01",
+  priorityGroup: "normal",
+  fanAccount: "amily_08_30",
+  fanAccountUrl: "https://www.threads.com/@amily_08_30",
+  postUrl: "https://www.threads.com/@amily_08_30/post/DaEbifiE0kU?xmt=AQG0ecKlnDoCvyG-4eC30UjgGslamKhDWiBF0rVuENCaMg",
+  category: "配件類",
+  itemName: "TZUYU+MINA打卡牌吊飾",
+  displayName: "打卡牌吊飾",
+  mainImage: "/images/amily_08_30/1.webp",
+  images: [
+    "/images/amily_08_30/1.webp",
+    "/images/amily_08_30/2.webp",
+    "/images/amily_08_30/3.webp",
+    "/images/amily_08_30/4.webp",
+    "/images/amily_08_30/5.webp",
+  ],
+  hasVideo: false,
+  originalText: `《2026 高雄啤酒節 TZUYU》
+
+TZUYU+MINA打卡牌吊飾應援🌽💙
+
+-
+
+這次啤酒節也準備了小小的應援～
+是以食物打卡牌為靈感做成的吊飾٩(˃̶͈̀௰˂̶͈́)و
+可以 <您好我吃一口>➕曬小卡
+
+《名井南🐧寶寶保護協會》成員福利
+不需要出示泡泡訂閱也可以領取應援
+
+-
+
+🔭｜線上付費應援｜
+可留言敲碗 看數量決定🙏🏻
+
+-
+
+🔭｜線下免費發放｜
+總共100份 兩款各50份
+
+1.出示 TZUYU或MINA 泡泡訂閱🫧
+or 《名井南🐧寶寶保護協會》成員畫面
+
+2.追蹤 @amily_08_30 +按讚 分享此貼文畫面
+
+（一人限領取一份）
+
+-
+
+🔭｜線下應援交換｜
+
+1.這次只開放發放期間來現場找我交換🙏🏻
+2.可預留 但在發放時間結束前未出現會現場分發
+3.有預留交換 免排隊可直接來找我
+4.無預留交換 需依照現場情況排隊交換
+5.因數量不多 會優先選擇喜歡的應援🙇🏻‍♀️
+
+-
+
+🪧｜2026/07/03｜高雄夢時代周圍
+當日穿搭會放在留言區置頂方便抓我⬇️
+當天發放時間or發放完畢也會公布在這裡👏🏻
+
+-
+
+圖源：親友委託圖 已買斷🙏🏻`,
+},
 ];
