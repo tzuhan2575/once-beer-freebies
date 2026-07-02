@@ -3645,4 +3645,544 @@ SANA：我相信說平常我們台北的ONCE們可能很少有機會見到彼此
 領取後歡迎拍照分享在脆上標註我🤟
 期待與萬斯們相見˶⊃︎ᐢ•˕•ᐢ⊂˶`,
 },
+{
+  id: "pa_pamily-01",
+  priorityGroup: "normal",
+  fanAccount: "pa_pamily",
+  fanAccountUrl: "https://www.threads.com/@pa_pamily",
+  postUrl: "https://www.threads.com/@pa_pamily/post/DaRpKxwk-GB?xmt=AQG09FMTKznHbDXM_f0AbTSeAAyJIWSFSiQjjhTlMZEUdw",
+  category: "配件類",
+  itemName: "徽章",
+  displayName: "徽章",
+  mainImage: "/images/pa_pamily/1.webp",
+  images: [
+    "/images/pa_pamily/1.webp",
+    "/images/pa_pamily/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `挑戰全網最晚發應援物實體（？）
+
+高雄啤酒節應援物來啦~
+
+我的應援物也做出來了！💙
+是我自己手畫的徽章 ‎›⩊‹
+
+有大大的子瑜和其他八個賊賊 ୧⍢⃝୨
+其實原本是想說生日的時候發的但沒想到這麼晚……
+所以上面寫的是ℍ𝔸ℙℙ𝕐 𝕋ℤ𝕌𝕐𝕌'𝕤 𝔻𝔸𝕐！
+
+數量：大概20+ 可以交換！
+
+發放方式：身上有TWICE 任一位成員的周邊即可 ⑉¯ ꇴ ¯⑉
+發放地點：到時候會再更新在此貼文~
+
+‼️注意事項：
+因為是徽章也是家中的徽章機自己手壓
+所以歪圖、背後針扣與前圖不呈水平……等皆有可能，
+全部一人作業還請擔當🥺
+
+我已經很努力把所有圖都用好了但是還是很多感覺歪歪的🥲
+麻煩不要把我的應援丟掉我們都是為愛發電的
+我會很桑心 ୧( "̮ )୨`,
+},
+{
+  id: "shisatzutzu-01",
+  priorityGroup: "normal",
+  fanAccount: "shisatzutzu",
+  fanAccountUrl: "https://www.threads.com/@shisatzutzu",
+  postUrl: "https://www.threads.com/@shisatzutzu/post/DaPdAmrmsee?xmt=AQG0SDg6uKlmGH44AoWT0oTOEXO4brwM1uQ8xSu8e8cELA",
+  category: "配件類",
+  itemName: "泳圈吊飾",
+  displayName: "泳圈吊飾",
+  mainImage: "/images/shisatzutzu/1.webp",
+  images: [
+    "/images/shisatzutzu/1.webp",
+    "/images/shisatzutzu/2.webp",
+    "/images/shisatzutzu/3.webp",
+    "/images/shisatzutzu/4.webp",
+    "/images/shisatzutzu/5.webp",
+    "/images/shisatzutzu/6.webp",
+    "/images/shisatzutzu/7.webp",
+  ],
+  hasVideo: false,
+  originalText: `2026 TZUYU IN KAOHSIUNG💙
+
+這次的應援物靈感是來自
+我上班時包包上的一隻泳圈米菲
+然後又開始逼迫朋友設計
+（不是請AI設計的 所以還附上設計圖）
+
+這次有兩個版本的原因
+在於設計師朋友當初覺得淺藍的底
+跟深藍的字跟子不理比較搭配
+後來廠商無意間給我一個試圖
+剛好是深藍底 突然覺得也很不錯
+陷入兩難後就乾脆兩個顏色都做
+
+所以現場發放時會隨機發放
+扣環也會是銀色的不是圖裡的
+因為那是我私心請廠商幫我
+換幾個喜歡的玫瑰金自留哈哈哈
+
+然後有試過大小 只有小豆豆眼適合
+黑豆豆眼的話 會像小嬰兒游泳
+塞一個大頭那樣 但也蠻可愛的
+
+最後啊因為量實在是太少
+所以無法隨便發放
+（雖然我前兩次的應援物也都忘記發文
+就隨便在路邊發一發了）
+
+反正就是有緣的我就會發🫠
+想交換的還是可以留言或私訊
+
+在這邊預祝子瑜高雄啤酒節演出順利🍭
+（太怕被盜圖拿去詐騙萬斯 只好上滿浮水印😭）`,
+},
+{
+  id: "wamy530831-01",
+  priorityGroup: "normal",
+  fanAccount: "wamy530831",
+  fanAccountUrl: "https://www.threads.com/@wamy530831",
+  postUrl: "https://www.threads.com/@wamy530831/post/DaNWw0rlNyA?xmt=AQG0NCPCF-P-MLfrx5nbhtYYiodF-KRMvligNSP0BUuv9w",
+  category: "紙本類",
+  itemName: "紋身貼紙",
+  displayName: "紋身貼紙",
+  mainImage: "/images/wamy530831/1.webp",
+  images: [
+    "/images/wamy530831/1.webp",
+    "/images/wamy530831/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍺 2026 高雄啤酒音樂節－TZUYU 紋身貼紙應援物發放 🍺
+
+本次共準備 150 份紋身貼紙（款式隨機發放），
+希望能優先回饋長期支持 TWICE、TZUYU 與曾參與應援文化的 ONCE。
+
+符合以下任一條件即可優先領取：
+
+① 曾自行製作並免費發送 TWICE 應援物（無營利性質）
+
+② 曾舉辦或協辦 TWICE 成員生日咖啡廳、活動或其他無償應援活動
+
+③ 訂閱 TWICE Bubble（不限成員）累計超過 3 個月以上
+
+④ 自 2025 高雄啤酒音樂節期間即追蹤瓦米廣告相關帳號至今
+（中途取消追蹤者不列入）
+
+⑤ 保留 20 份提供應援物交換，
+歡迎攜帶自行製作或準備的應援物與我交換。
+
+━━━━━━━━━━━━━━
+
+📍 領取方式
+
+① 7/2 晚上
+高雄前金捷運站附近面交領取
+
+② 高雄啤酒音樂節活動當天領取
+詳細時間及地點將於活動前公布
+
+━━━━━━━━━━━━━━
+
+📌 領取條件
+
+✔ 追蹤瓦米廣告 IG
+✔ 追蹤 TZUYU IG
+✔ 配合出示符合資格之相關證明
+
+━━━━━━━━━━━━━━
+
+若優先資格領取後仍有剩餘數量，
+將開放符合追蹤條件之 ONCE 現場領取`,
+},
+{
+  id: "tttion_yu-01",
+  priorityGroup: "normal",
+  fanAccount: "tttion_yu",
+  fanAccountUrl: "https://www.threads.com/@tttion_yu",
+  postUrl: "https://www.threads.com/@tttion_yu/post/DaQGlPgEi9q?xmt=AQG0sjXa1xjLaC3AWf2UCFzRi3bRSfC18Mu87VqDoeBnGw",
+  category: "綜合類",
+  itemName: "小卡、紙袋、透扇",
+  displayName: "小卡、紙袋、透扇",
+  mainImage: "/images/tttion_yu/1.webp",
+  images: [
+    "/images/tttion_yu/1.webp",
+    "/images/tttion_yu/2.webp",
+    "/images/tttion_yu/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `大家好～～我是TT💕
+
+啤酒節應援文來了～
+
+之前發生了一些事緊急下單重做😖
+不確定能不能如期到達🥲
+確定到了趕快來發一下！！！！
+
+第一次去有點緊張不知道要帶什麼😂
+大家啤酒節當天見啦🥹💙💙💙
+
+趕快來找我領吧～～～～～
+可以拿袋子去裝各種子瑜應援物💙
+
+這幾天看到很多應援物都超可愛🥲！！
+（可惡都好想要 >///<）
+
+🌟發放時間🌟
+下午2:30-3:00左右
+（當天threads & IG 限動會更新地點）
+
+🌟領取條件🌟
+追蹤threads + 出示本篇文💕
+
+🌟數量🌟
+全部200份左右發完為止🥰💙`,
+},
+{
+  id: "yao191529-01",
+  priorityGroup: "normal",
+  fanAccount: "yao191529",
+  fanAccountUrl: "https://www.threads.com/@yao191529",
+  postUrl: "https://www.threads.com/@yao191529/post/DaPOUNIktyW?xmt=AQG0jdHslzSOHF0HeCJp0p2I1CJzT3lRbZYjPS1wRIbQ7A",
+  category: "配件類",
+  itemName: "掛飾",
+  displayName: "掛飾",
+  mainImage: "/images/yao191529/1.webp",
+  images: ["/images/yao191529/1.webp"],
+  hasVideo: false,
+  originalText: `7/3 啤酒節 應援物發放＆交換
+
+因為中午才會到高雄
+預計1330左右開始發放
+
+可以當手機吊繩或是包包掛飾的子瑜掛飾
+總共有50份
+
+發放場地當天會公布！`,
+},
+{
+  id: "myy812923-01",
+  priorityGroup: "normal",
+  fanAccount: "myy812923",
+  fanAccountUrl: "https://www.threads.com/@myy812923",
+  postUrl: "https://www.threads.com/@myy812923/post/DaDZ6sKCSBJ?xmt=AQG0J5CDMoRq88uMj95oPZudPgWnVmtETaDcPIJvQAedNg",
+  category: "實用小物",
+  itemName: "摺疊扇",
+  displayName: "摺疊扇",
+  mainImage: "/images/myy812923/1.webp",
+  images: ["/images/myy812923/1.webp"],
+  hasVideo: false,
+  originalText: `🍻｜𝟕/𝟑 高雄啤酒音樂節－𝐓𝐙𝐔𝐘𝐔 應援｜🍻
+
+終於完成子子的應援物了～૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა♡
+
+七月的高雄真的不是在開玩笑的熱，
+也因此萌生了製作摺疊扇的想法，
+讓這份應援除了留下紀念，也能在炎熱的夏天派上用場´͈ ᵕ \`͈ ♡°◌̊
+
+᧔࿔᧓⋆領取日期&地點：
+7/3（五）
+地點到時候發文告知
+
+᧔࿔᧓⋆應援物：
+摺疊扇約45個
+
+᧔࿔᧓⋆領取條件：
+能證明是ONCE即可（周邊、成員泡泡、會員）
+
+注意‼️嚴禁丟棄、轉賣，一人限領一次拒代領
+
+很謝謝 @grande.fish 的創意想法完全有把我心中的藍圖完美呈現出來，
+才能順利完成這次的應援小物💙
+（還答應了我無理的要求😆像是lovely+ minini組合）
+
+還有就是我自己有私心有另外做了加shunini、yeonini兩小隻的版本，
+如果有雙擔有想要可以跟我說
+（還是其實只有我自己想要而已🤣）`,
+},
+{
+  id: "tomriesestin-01",
+  priorityGroup: "normal",
+  fanAccount: "tomriesestin",
+  fanAccountUrl: "https://www.threads.com/@tomriesestin",
+  postUrl: "https://www.threads.com/@tomriesestin/post/DaK7Lh5DQ4Y?xmt=AQG03aS4CDLd9uTrRRbpq8p9VwrV23y74QEW_-fvsL7FuQ",
+  category: "紙本類",
+  itemName: "啤酒寶寶TZUVELY符咒幸運小卡",
+  displayName: "小卡",
+  mainImage: "/images/tomriesestin/1.webp",
+  images: [
+    "/images/tomriesestin/1.webp",
+    "/images/tomriesestin/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `𝟮𝟬𝟮𝟲 𝗕𝗘𝗘𝗥 𝗥𝗢𝗖𝗞 𝗙𝗘𝗦𝗧𝗜𝗩𝗔𝗟💙𝗧𝗭𝗨𝗬𝗨💙
+
+為了慶祝子瑜首度來台的個人演出🎤
+簡單設計了一個「啤酒寶寶𝗧𝗭𝗨𝗩𝗘𝗟𝗬」🍼
+符咒幸運小卡作為應援物來發給大家✨
+
+>>>𝟮𝟬𝟮𝟲.𝟳.𝟯
+
+🍺免費發放 數量有限 送完為止🍺
+🍭只要出示粉絲周邊證明就可以領取🍭
+
+-
+
+（當天的位置跟相關資訊都會發在這邊～
+有想領取怕錯過的萬斯也可以先追蹤呦）`,
+},
+{
+  id: "hahai_0614-01",
+  priorityGroup: "normal",
+  fanAccount: "hahai_0614",
+  fanAccountUrl: "https://www.threads.com/@hahai_0614",
+  postUrl: "https://www.threads.com/@hahai_0614/post/DaI8htrE67l?xmt=AQG0XonG4DKhsTZh-kjYOMci7ZnCk1Vu9vTEO_nA1IQ1rg",
+  category: "紙本類",
+  itemName: "透明小手幅",
+  displayName: "透明小手幅",
+  mainImage: "/images/hahai_0614/1.webp",
+  images: ["/images/hahai_0614/1.webp"],
+  hasVideo: false,
+  originalText: `Tzuyu 高雄啤酒節 應援物交換🍻
+
+第一次作的應援物終於到貨啦！！！
+
+畫了子瑜和子不理的透明小手幅～
+超級期待啤酒節的到來，
+來跟我分享你做的應援物吧！
+
+🌟交換數量：20份
+🌟交換時間和地點：當天會發文公佈`,
+},
+{
+  id: "ur._ru-01",
+  priorityGroup: "normal",
+  fanAccount: "ur._ru",
+  fanAccountUrl: "https://www.threads.com/@ur._ru",
+  postUrl: "https://www.threads.com/@ur._ru/post/DaQJLkaEuyv?xmt=AQG0JewNVyTiUGcG83S8sD1cd0HN1i31yFFmxf-TYPXr9Q",
+  category: "紙本類",
+  itemName: "小貼紙",
+  displayName: "小貼紙",
+  mainImage: "/images/ur._ru/1.webp",
+  images: [
+    "/images/ur._ru/1.webp",
+    "/images/ur._ru/2.webp",
+    "/images/ur._ru/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `💙🍺07/03 高雄啤酒音樂節應援發放🍺💙
+
+這次準備了一份小小的應援想送給大家，
+是我自己設計的子瑜小貼紙，希望大家會喜歡！
+
+（身邊根本沒認識幾個瑜擔真的好少🥹
+如果可以的話，也希望大家幫我轉發給瑜擔們，
+讓更多人看到，謝謝大家♡）
+
+應援物
+一份共有 10張小貼紙！（圖下）
+
+貼紙表面有一層閃亮亮的✨星星模✨
+全部都是我自己設計、製作的，
+希望大家可以貼得開開心心☺️
+
+領取時間、地點
+當天公告📣（暫定夢時代一樓附近）
+
+數量
+50 份（發完為止）
+
+領取方式
+身上有任何TWICE 官方周邊即可領取一份！
+
+❗️一人限領一份，請勿重複領取。
+🈲 禁止轉售、棄置，請珍惜每一份應援物。
+（全手工拜託好好珍惜！！！！）
+
+第一次做子瑜應援，有很多不足的地方，
+也希望大家會喜歡這份小小的心意
+
+7/3 一起為子瑜應援吧！🍺✨`,
+},
+{
+  id: "oholand__-01",
+  priorityGroup: "normal",
+  fanAccount: "oholand__",
+  fanAccountUrl: "https://www.threads.com/@oholand__",
+  postUrl: "https://www.threads.com/@oholand__/post/DaR3_PYFAlU?xmt=AQG0b4Rb03E5MJEe_LnN3K5oZClyMBcWM41CyXA8ZQuTFA",
+  category: "實用小物",
+  itemName: "手機支架",
+  displayName: "手機支架",
+  mainImage: "/images/oholand__/1.webp",
+  images: [
+    "/images/oholand__/1.webp",
+    "/images/oholand__/2.webp",
+    "/images/oholand__/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `✨大家準備好明天要領子瑜的應援支架了嗎💖？
+
+🙋🏻想要應援支架的ONCE
+請先追蹤此IG&thread
+
+📍7/3當天發放地點會公佈在IG唷
+
+🐠子瑜SOLO限定款💙
+
+#周子瑜`,
+},
+{
+  id: "mookee6126-01",
+  priorityGroup: "normal",
+  fanAccount: "mookee6126",
+  fanAccountUrl: "https://www.threads.com/@mookee6126",
+  postUrl: "https://www.threads.com/@mookee6126/post/DaLEY8KmfDw?xmt=AQG0TlgQfrMtShpaJc6dnVikz9_PgXfg2zz6rBwfL4Hrpw",
+  category: "實用小物",
+  itemName: "磁鐵開瓶器",
+  displayName: "磁鐵開瓶器",
+  mainImage: "/images/mookee6126/1.webp",
+  images: [
+    "/images/mookee6126/1.webp",
+    "/images/mookee6126/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `高雄啤酒音樂節-TZUYU💙
+
+————————————————————
+🌟 免費應援物發放 🌟
+————————————————————
+
+大家好～
+這次想法是從啤酒蓋來的，
+所以做了可以當磁鐵跟開瓶器使用的應援物，
+希望大家會喜歡
+
+（圖二的圖比較接近實體顏色，給大家參考）
+
+————————————————————
+
+《 Tzuvely 應援物 》
+✨磁鐵開瓶器（58mm）共30份
+
+————————————————————
+
+發放時間：07/03
+發放地點：目前暫定是隨機發放，如果有更改會在此貼文釘選通知
+領取條件：ONCE證明（手燈、週邊、lovely...等）
+
+————————————————————
+
+⚠️每人限領取乙份
+⚠️禁止代領
+⚠️請大家不要轉賣/丟棄
+《如果沒有想領取可以還給我》
+
+————————————————————
+
+\\ 💙 我們高雄夢時代見 💙 //
+
+————————————————————`,
+},
+{
+  id: "wenyan5540-01",
+  priorityGroup: "normal",
+  fanAccount: "wenyan5540",
+  fanAccountUrl: "https://www.threads.com/@wenyan5540",
+  postUrl: "https://www.threads.com/@wenyan5540/post/DZRteY2E02y?xmt=AQG0SDg6uKlmGH44AoWT0oTOEXO4brwM1uQ8xSu8e8cELA",
+  category: "紙本類",
+  itemName: "成員名字水晶轉印貼紙",
+  displayName: "轉印貼紙",
+  mainImage: "/images/wenyan5540/1.webp",
+  images: ["/images/wenyan5540/1.webp"],
+  hasVideo: false,
+  originalText: `💙TZUYU高雄啤酒音樂節應援物💙
+
+第一彈－成員名字水晶轉印貼紙
+
+之前演唱會收到很多貼紙類的應援物
+真的太喜歡貼貼紙🥰
+決定這次來做自己想要的內容🫶🏻
+
+內容：官方成員號碼+姓名＋官方應援色
+
+使用方式：
+清潔想貼的光滑表面，撕掉透明底紙，
+對準位置貼上貼紙，
+用力按壓貼紙讓空氣排出，
+再慢慢撕除轉印膜
+
+‼️字體筆劃較多，撕除轉印膜要小心‼️
+
+🦌數量：每位成員各25張
+（一人一張，可選成員，發完為止）
+
+🦌日期：7/3
+🦌地點：高雄啤酒節會場（到時候會再公告
+🦌領取方式：免費發放
+🦌領取條件：出示貼文＋TWICE官方周邊
+
+💙希望有領取的ONCE們不要丟掉，
+雖然只是貼紙，但設計起來也很辛苦ಥ_ಥ
+
+⚠️注意事項
+✔️每人限領一張
+✔️應援物禁止轉送、轉售及丟棄‼️
+✔️絕對不會販售，也不會開線上，想要領取只能現場
+✔️等應援物都發完貼文，歡迎交換🫶🏻
+
+‼️此應援物僅由此帳號公告＋發放，小心詐騙！`,
+},
+{
+  id: "wenyan5540-02",
+  priorityGroup: "normal",
+  fanAccount: "wenyan5540",
+  fanAccountUrl: "https://www.threads.com/@wenyan5540",
+  postUrl: "https://www.threads.com/@wenyan5540/post/DaAfG2bk3-p?xmt=AQG0SDg6uKlmGH44AoWT0oTOEXO4brwM1uQ8xSu8e8cELA",
+  category: "配件類",
+  itemName: "織嘜布條鑰匙圈",
+  displayName: "織嘜布條鑰匙圈",
+  mainImage: "/images/wenyan5540/2.webp",
+  images: [
+    "/images/wenyan5540/2.webp",
+    "/images/wenyan5540/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `💙TZUYU高雄啤酒音樂節免費應援物發放💙
+
+第二彈－織嘜布條鑰匙圈（子瑜款）
+
+想法來自路上看到很多的布條鑰匙圈
+可以掛在包包上低調的應援我們的推💙
+
+雙面設計，
+一面是我們最愛的子瑜，
+另外一面是我們快樂追星的底氣-臺灣，
+驕傲地表示我們是TAIWAN ONCE😍
+
+🦌數量：總共99份
+🦌日期：7/3
+🦌地點：當日公告
+🦌領取方式：隨機發+交換
+
+＊我路上看到身上很多TWICE周邊就會隨機塞，希望被塞的人都喜歡🫶🏻
+
+🦌領取條件：
+1.身上必須要有除手燈外的官方周邊
+2.需追蹤thinkaboutzu or twicetagram帳號
+3.出示本貼文
+
+✨交換請在留言區附上您的應援物，
+並備注想要交換貼紙還是鑰匙圈🫶🏻
+
+‼️留言區可以交換的我會按愛心，就不一一回覆了🫶🏻
+
+⚠️注意事項
+✔️每人限領一份
+✔️應援物禁止轉送、轉售及丟棄‼️
+✔️絕對不會販售，也不會開線上，想要領取只能現場
+✔️歡迎交換應援🫶🏻
+
+‼️此應援物僅由此帳號公告＋發放，小心詐騙( ･᷄ὢ･᷅ )`,
+},
 ];
