@@ -3340,4 +3340,309 @@ or 《名井南🐧寶寶保護協會》成員畫面
 
 圖源：親友委託圖 已買斷🙏🏻`,
 },
+{
+  id: "aboutzu0422-02",
+  priorityGroup: "normal",
+  fanAccount: "aboutzu0422",
+  fanAccountUrl: "https://www.threads.com/@aboutzu0422",
+  postUrl: "https://www.threads.com/@aboutzu0422/post/DaNEgAPiZ1G?xmt=AQG0LvsxMnP8t2MSfe_jJrgzs98ntrLh7oUhrPam737XHDc9BeJasc0w-LWlGSAsZgRx47E&slof=1",
+  category: "實用小物",
+  itemName: "TZUVELY環保袋",
+  displayName: "環保袋",
+  mainImage: "/images/aboutzu0422/2.jpg",
+  images: ["/images/aboutzu0422/2.jpg"],
+  hasVideo: false,
+  originalText: `✨ 高雄啤酒節 周子瑜 免費應援 第二彈✨
+
+📍 TZUVELY環保袋
+總共50個
+
+🗓 日期｜7/3
+📍 完整時間＆地點將於當天公告
+📍 追蹤 Threads & IG @aboutzu0422 獲得第一手消息！
+📍 數量有限，當天發完即止
+
+💡 領取方式
+✔️ 需證明為 ONCE
+✔️ 請出示本篇貼文給我確認
+（未出示者需重新排隊，敬請見諒🙏）
+
+詳細規則後續會再公布～
+
+💬 歡迎幫我留言、轉發貼文！
+📸 領取後也可以拍照分享🫶🏻`,
+},
+{
+  id: "_w1nyu7-01",
+  priorityGroup: "normal",
+  fanAccount: "_w1nyu7",
+  fanAccountUrl: "https://www.threads.com/@_w1nyu7",
+  postUrl: "https://www.threads.com/@_w1nyu7/post/DaSBirroCe2?xmt=AQG0WdnWqNewldpQuQaPbcU45yRv-W7qWq4mUWuwdU-_kg",
+  category: "綜合類",
+  itemName: "語音娃娃、小夾子",
+  displayName: "語音娃娃、小夾子",
+  mainImage: "/images/_w1nyu7/1.webp",
+  images: [
+    "/images/_w1nyu7/1.webp",
+    "/images/_w1nyu7/2.webp",
+    "/images/_w1nyu7/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `🍻高雄啤酒音樂節🍻｜💙𝐓𝐙𝐔𝐘𝐔 娃娃＆夾子應援💙
+
+詳細實物出來啦 希望大家喜歡！
+終於把應援物都做出來了～
+想交換的都還有名額可以來找我交換哦🥺
+但會選自己喜歡的應援選擇交換> <
+
+💖請仔細閱讀下面內文💖
+
+應援1️⃣｜語音娃娃｜
+‼️ 此應援開放有限名額交換‼️
+
+💡領取方式：
+1. 顯示此貼文給我看
+2. 擁有TWICE任一成員的泡泡需超過100天
+3. 追蹤 twicetagram
+
+📍以上三者皆需達到才發送📍
+
+應援2️⃣｜TWICE全員隨機小夾子
+（共100份 10種款式 為隨機發送）
+
+💡領取方式：
+1. 顯示此文章給我看
+2. 身上有明顯粉絲證明（例如：拉不理、手燈……）以我看的為主
+3. 追蹤 twicetagram
+
+📍以上三者皆需達到才發送📍
+
+⛔️以上應援物🈲️轉售 🈲️代領 每人只限領一次⛔️
+
+有約交換的11：30後就可以找我交換了～
+明天會再發一篇貼文告訴大家我的穿搭和領應援的地點！
+
+線下非常I所以希望大家看到我可以直接走到我面前給我看這篇文我就會給你們應援物了🥹
+請大家一定要來找我玩跟我領應援哦！`,
+},
+{
+  id: "0108._.lin-01",
+  priorityGroup: "normal",
+  fanAccount: "0108._.lin",
+  fanAccountUrl: "https://www.threads.com/@0108._.lin",
+  postUrl: "https://www.threads.com/@0108._.lin/post/DaQiFL-kodw?xmt=AQG0SMshVKzp9GVoQLo8HLuk00InDKwzBc1aRyzcekC9Yw",
+  category: "綜合類",
+  itemName: "鑰匙圈、冰箱貼",
+  displayName: "鑰匙圈、冰箱貼",
+  mainImage: "/images/0108._.lin/1.webp",
+  images: [
+    "/images/0108._.lin/1.webp",
+    "/images/0108._.lin/2.webp",
+    "/images/0108._.lin/3.webp",
+    "/images/0108._.lin/4.webp",
+  ],
+  hasVideo: false,
+  originalText: `💙2026 KHH啤酒節🍺💜 part 1
+
+高雄場、臺北場應援限量且少量回歸🌟
+歡迎各位賊賊擔過來交換/領取
+
+（好奇怪昨天打不出🍑今天打不出紗🥲）
+
+這次很榮幸跟協助飄飄一起參與這個應援編髮活動💗
+
+活動資訊如圖
+
+領取條件：
+有排到應援編髮的萬歡迎擇一領取🫶🏻🫶🏻🫶🏻
+
+歡迎大家當天來找我們玩💙💙💙
+
+最後當天活動相關資訊請關注 @hirahira_goodday IG💙
+最終更改、解釋權歸飄飄所有～`,
+},
+{
+  id: "0108._.lin-02",
+  priorityGroup: "normal",
+  fanAccount: "0108._.lin",
+  fanAccountUrl: "https://www.threads.com/@0108._.lin",
+  postUrl: "https://www.threads.com/@0108._.lin/post/DaSEwwpkXN4?xmt=AQG0i0UByi8XxvBOZDJdl2b1FKTSGEeuZPDYMTJb0qwvMg",
+  category: "實用小物",
+  itemName: "透扇",
+  displayName: "透扇",
+  mainImage: "/images/0108._.lin/5.webp",
+  images: ["/images/0108._.lin/5.webp"],
+  hasVideo: false,
+  originalText: `💙2026 KHH啤酒節🍺💜 part 2
+
+首先這次還是非常感謝 @tttion_yu
+在這一路幫了我很多很多的忙🥹💗
+也非常感謝參與了這次的設計🫶🏻
+
+真的非常開心可以參加啤酒節🍺
+
+這次的形狀是一直很想做出來的瑜寶透扇🌟
+有兩個款式 希望大家會喜歡💙
+
+也歡迎大家到現場可以來應援編髮攤玩～～～～
+然後可以順便來跟我交換應援🥹
+
+因為我要顧攤子可能沒辦法跑
+先說聲抱歉🙇🏻‍♀️🙇🏻‍♀️🙇🏻‍♀️
+
+如果現場有不周到的地方再請大家見諒
+
+謝謝🙏🏻`,
+},
+{
+  id: "_yj_1020-01",
+  priorityGroup: "normal",
+  fanAccount: "_yj_1020",
+  fanAccountUrl: "https://www.threads.com/@_yj_1020",
+  postUrl: "https://www.threads.com/@_yj_1020/post/DaQRoyNmbri?xmt=AQG0LSI-WG61-ocIM4xXFdkmpQ01XMaWez6jYr_gg8tUUQ",
+  category: "實用小物",
+  itemName: "百貼布",
+  displayName: "百貼布",
+  mainImage: "/images/_yj_1020/1.webp",
+  images: ["/images/_yj_1020/1.webp"],
+  hasVideo: false,
+  originalText: `2026.7.3 高雄啤酒節場外應援
+
+大家好，我是YJ～我要來極限發文了
+
+為了慶祝子瑜首次來台個人活動，
+所以第一次製作應援物來發放🎉
+
+但因為初次製作且成本偏高，所以只有少量，
+希望大家真的有喜歡而且會使用再拿～
+
+🦌應援物：百貼布(35×35公分)
+🦌數量：20個無料、10個交換
+🦌發放時間及地點：當天會公布在IG限動
+💙想要交換的可以留言，如果有喜歡會私訊您
+🦌領取條件：身上需要有TWICE官方的周邊(小卡不算)
+🦌注意事項：
+1.每個人限領一份，禁止幫朋友領取
+2.此應援物禁止轉售
+
+為了避免版權問題特地請到我個人很喜歡的繪師畫圖，
+並且感謝我朋友的友情排版，再次感謝二位😍`,
+},
+{
+  id: "lyp_yupinky-01",
+  priorityGroup: "normal",
+  fanAccount: "lyp_yupinky",
+  fanAccountUrl: "https://www.threads.com/@lyp_yupinky",
+  postUrl: "https://www.threads.com/@lyp_yupinky/post/DaRnU3GD5do?xmt=AQG04CUD6bS1xG8BJeZuIBot1Z41Zt7RB_64t8S6EDovrw",
+  category: "綜合類",
+  itemName: "冰箱貼、轉印貼",
+  displayName: "冰箱貼、轉印貼",
+  mainImage: "/images/lyp_yupinky/1.webp",
+  images: ["/images/lyp_yupinky/1.webp"],
+  hasVideo: false,
+  originalText: `✨高雄啤酒節 子瑜 免費應援 ✨
+
+是的拖延症患者最後一刻來了🤣
+
+這次因為比較接近開演日才收到票！
+所以決定來把演唱會沒有發完的極少餘量釋出～
+數量只有18組！
+
+TWICE專輯冰箱貼+轉印貼
+
+歡迎交換&領取🥰
+另外明天應該也是會到處飄
+沒意外的話就是隨機掉落🤣🤣🤣
+
+好期待呀😍
+明天可以再見到瑜寶寶了～～
+大家明天要一起大聲應援歡迎子瑜回家唷`,
+},
+{
+  id: "wubingyan2214-01",
+  priorityGroup: "normal",
+  fanAccount: "wubingyan2214",
+  fanAccountUrl: "https://www.threads.com/@wubingyan2214",
+  postUrl: "https://www.threads.com/@wubingyan2214/post/DaQYe32GpIO?xmt=AQG0xS7r_0DHDyxO5rHl4m4atsigtbxJWMDo1sd5b4sAxg",
+  category: "綜合類",
+  itemName: "吊飾、紀念幣",
+  displayName: "吊飾、紀念幣",
+  mainImage: "/images/wubingyan2214/1.webp",
+  images: [
+    "/images/wubingyan2214/1.webp",
+    "/images/wubingyan2214/2.webp",
+  ],
+  hasVideo: false,
+  originalText: `應援物末班車 即將發車🚙
+本車開往高雄啤酒音樂節🍻
+
+7／3啤酒節等ONCE們來拿
+
+這次應援物更多樣啦🤩
+由於上次真的太熱烈了
+🧡所以一樣有台北場的應援物💙
+
+新的應援物❤️‍🔥
+1️⃣子布哩小吊飾💙
+2️⃣啤酒節限定紀念幣
+3️⃣子布哩集字吊飾（活動）❗️
+4️⃣子瑜小地標（活動）❗️
+5️⃣全白拉布哩吊飾（欸？
+
+本次的應援吊飾和紀念幣多了音樂🎶🎶
+只要將手機靠近啤酒／TWICE的圖示
+（手機要有NFC功能）
+就會有隨機的音樂哦！
+
+不過數量有限 其餘是普通版的～
+＜紀念幣採隨機發放😍＞
+
+啤酒節限定活動
+在3／20台北演唱會中Talking環節
+
+SANA：我相信說平常我們台北的ONCE們可能很少有機會見到彼此
+希望今天大家可以跟你們前後左右的ONCE都可以變熟哦
+
+✅️沒錯！
+只要拿到身上寫有T Z U Y U的
+即可尋找其他4位ONCE湊崎TZUYU即可獲得子瑜地標🏛
+數量只有15個 先到先贏🤩
+
+應援物領取條件：
+1.身上要有任意TWICE周邊（娃娃、扇子、小卡等等）
+2.禮貌的心❤️
+
+❌️不開放代領
+一人限領乙個子步哩吊飾or紀念幣`,
+},
+{
+  id: "aliiiceguo-01",
+  priorityGroup: "normal",
+  fanAccount: "aliiiceguo",
+  fanAccountUrl: "https://www.threads.com/@aliiiceguo",
+  postUrl: "https://www.threads.com/@aliiiceguo/post/DaQUEH7k36h?xmt=AQG0tdWhgXRCgKcqa6H2mu5g5bRXgUAzOjw7B8N8WV_Dkw",
+  category: "實用小物",
+  itemName: "Lovely杯套",
+  displayName: "杯套",
+  mainImage: "/images/aliiiceguo/1.webp",
+  images: [
+    "/images/aliiiceguo/1.webp",
+    "/images/aliiiceguo/2.webp",
+    "/images/aliiiceguo/3.webp",
+  ],
+  hasVideo: false,
+  originalText: `🪽高雄啤酒節TZUYU in Kaohsiung免費應援～🍺
+
+💙Lovely杯套約30個
+
+🗓 日期｜7/3
+📍完整時間&地點於當天Threads上公布！
+📍因數量不多 採隨意走動發放
+
+💌 領取方式
+🪄 出示任一啦不理娃娃/手燈/訂閱泡泡 皆可
+
+領取後歡迎拍照分享在脆上標註我🤟
+期待與萬斯們相見˶⊃︎ᐢ•˕•ᐢ⊂˶`,
+},
 ];
